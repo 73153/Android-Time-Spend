@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews
+END
+IjoomerEditText.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerEditText.java
+END
+FlingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/FlingListener.java
+END
+IjoomerSpinnerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerSpinnerAdapter.java
+END
+PhotoTagView.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/PhotoTagView.java
+END
+InternalStorageContentProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/InternalStorageContentProvider.java
+END
+IjoomerProgressView.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerProgressView.java
+END
+IjoomerButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerButton.java
+END
+IjoomerTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerTextView.java
+END
+IjoomerVoiceButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerVoiceButton.java
+END
+IjoomerHorizontalScroll.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerHorizontalScroll.java
+END
+MathUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/MathUtils.java
+END
+TwitterOAuthView.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/TwitterOAuthView.java
+END
+MoveAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/MoveAnimationListener.java
+END
+IjoomerTextView2.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerTextView2.java
+END
+IjoomerHorizontalAutoScroller.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerHorizontalAutoScroller.java
+END
+ZoomAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/ZoomAnimationListener.java
+END
+CoverFlow.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/CoverFlow.java
+END
+IjoomerGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerGridView.java
+END
+GifDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/GifDecoder.java
+END
+IjoomerWebView.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerWebView.java
+END
+IjoomerAudioPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerAudioPlayer.java
+END
+IjoomerMultiPurposeSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerMultiPurposeSelector.java
+END
+IjoomerRatingBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerRatingBar.java
+END
+FlingAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/FlingAnimationListener.java
+END
+IjoomerFacebookWebview.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerFacebookWebview.java
+END
+CustomSliderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/CustomSliderView.java
+END
+IjoomerVoiceAndTextMessager.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerVoiceAndTextMessager.java
+END
+IjoomerRadioButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerRadioButton.java
+END
+MoveAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/MoveAnimation.java
+END
+IjoomerCircleLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerCircleLayout.java
+END
+IjoomerIndexScroller.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerIndexScroller.java
+END
+RoundedImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/RoundedImageView.java
+END
+ZoomAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/ZoomAnimation.java
+END
+IjoomerGifView.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerGifView.java
+END
+GestureImageViewListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/GestureImageViewListener.java
+END
+SeekBarWithTwoThumb.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/SeekBarWithTwoThumb.java
+END
+RoundedDrawable.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/RoundedDrawable.java
+END
+FlingAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/FlingAnimation.java
+END
+Animator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/Animator.java
+END
+IjoomerViewPager.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerViewPager.java
+END
+Animation.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/Animation.java
+END
+VectorF.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/VectorF.java
+END
+IjoomerEditText2.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerEditText2.java
+END
+RangeSeekBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/RangeSeekBar.java
+END
+GestureImageViewTouchListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/GestureImageViewTouchListener.java
+END
+IjoomerListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerListView.java
+END
+IjoomerCheckBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerCheckBox.java
+END
+IjoomerGallery.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerGallery.java
+END
+GestureImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/GestureImageView.java
+END
+IjoomerDataPickerView.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerDataPickerView.java
+END
+IjoomerIndexableListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/customviews/IjoomerIndexableListView.java
+END

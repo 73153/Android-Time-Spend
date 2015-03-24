@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    style="?background"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <HorizontalScrollView
+            android:id="@+id/hsvNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/lnrNetwork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.ijoomer.customviews.IjoomerCircleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="340dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/rounded"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_launcher"
+                            android:adjustViewBounds="true"/>
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            style="?textview_white_h1"
+                            android:id="@+id/txtProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Profile"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/rounded"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_launcher"
+                            android:adjustViewBounds="true"/>
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            style="?textview_white_h1"
+                            android:id="@+id/txtProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Profile"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/rounded"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_launcher"
+                            android:adjustViewBounds="true"/>
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            style="?textview_white_h1"
+                            android:id="@+id/txtProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Profile"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/rounded"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_launcher"
+                            android:adjustViewBounds="true"/>
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            style="?textview_white_h1"
+                            android:id="@+id/txtProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Profile"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/rounded"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_launcher"
+                            android:adjustViewBounds="true"/>
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            style="?textview_white_h1"
+                            android:id="@+id/txtProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Profile"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/rounded"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_launcher"
+                            android:adjustViewBounds="true"/>
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            style="?textview_white_h1"
+                            android:id="@+id/txtProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Profile"/>
+
+                    </LinearLayout>
+
+                </com.ijoomer.customviews.IjoomerCircleLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/rounded"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/ic_launcher"
+                        android:adjustViewBounds="true"/>
+
+                    <com.ijoomer.customviews.IjoomerTextView
+                        style="?textview_white_h2"
+                        android:id="@+id/txtProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Profile"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ijoomeradvance_logo"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/settings_btn"/>
+</LinearLayout>

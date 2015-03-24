@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src
+END
+IjoomerSplashActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src/IjoomerSplashActivity.java
+END
+GcmBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src/GcmBroadcastReceiver.java
+END
+IjoomerMenuGridFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src/IjoomerMenuGridFragment.java
+END
+IjoomerMenuTagHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src/IjoomerMenuTagHolder.java
+END
+IjoomerHomeFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src/IjoomerHomeFragment.java
+END
+GcmIntentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src/GcmIntentService.java
+END
+IjoomerPushNotificationLuncherActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src/IjoomerPushNotificationLuncherActivity.java
+END
+IjoomerMenuActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src/IjoomerMenuActivity.java
+END
+IjoomerHomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src/IjoomerHomeActivity.java
+END
+IjoomerMenuListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/intafy/src/IjoomerMenuListFragment.java
+END

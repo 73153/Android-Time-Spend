@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim
+END
+flip_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim/flip_in.xml
+END
+slide_in_up.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim/slide_in_up.xml
+END
+flip_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim/flip_out.xml
+END
+slide_right_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim/slide_right_out.xml
+END
+slide_left_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim/slide_left_in.xml
+END
+popup_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim/popup_show.xml
+END
+slide_out_down.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim/slide_out_down.xml
+END
+slide_left_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim/slide_left_out.xml
+END
+popup_hide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim/popup_hide.xml
+END
+slide_right_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/res/anim/slide_right_in.xml
+END

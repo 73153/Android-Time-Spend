@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="iproperty_favourite_list">Favourite List</string>
+    <string name="iproperty_comment_list">Comment List</string>
+    <string name="iproperty_search_result_found">%1$d Result Found</string>
+    <string name="iproperty_search_category_step">%1$d Steps For</string>
+    <string name="iproperty_search_property">Search Property</string>
+    <string name="iproperty_share_recipient">RECIPIENT</string>
+    <string name="iproperty_overview">Overview</string>
+    <string name="iproperty_comments">Comments</string>
+    <string name="iproperty_comment">Comment</string>
+    <string name="iproperty_pictures">Pictures</string>
+    <string name="iproperty_detail">Property Detail</string>
+    <string name="iproperty_picture_preview">Picture Preview</string>
+    <string name="iproperty_add">Add</string>
+    <string name="iproperty_around_me">Around me -> </string>
+    <string name="iproperty_search_result">Search Result</string>
+    <string name="iproperty_search_steps">Search Steps</string>
+    <string name="iproperty_search_result_detail">Search Result Detail</string>
+    <string name="iproperty_no_title">No title</string>
+    <string name="iproperty_steps">Steps</string>
+    <string name="iproperty_delete">Delete</string>
+    <string name="iproperty_steps_of">Step of %1$d</string>
+    <string name="iproperty_favourite_remove">Favourite Remove</string>
+    <string name="iproperty_comment_remove">Comment Remove</string>
+    <string name="iproperty_add_favourite_sccressfully">Successfully Added To Favourite</string>
+    <string name="iproperty_add_favourite_unsccressfully">Opps ! Not Added To Favourite</string>
+    <string name="iproperty_remove_favourite_sccressfully">Successfully Removed To Favourite</string>
+    <string name="iproperty_remove_favourite_unsccressfully">Opps ! Not Remove To Favourite</string>
+    <string name="iproperty_no_comments_yet">No Comment Found</string>
+    <string name="iproperty_no_pictures_yet">No Picture Found</string>
+
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ijoomer.intafy.src"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/lnrLeftUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.ijoomer.customviews.RoundedImageView
+                    android:id="@+id/imgLeftUserIcon"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="fitXY"
+                    app:is_oval="false"
+                    app:corner_radius="360dp"
+                    app:border_color="@color/blue"/>
+                <ProgressBar
+                    android:id="@+id/pbrLeftImageLoad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/lnrLeftClickable"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:paddingRight="5dp"
+                android:layout_marginLeft="-8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/list_item_box_left"
+                android:gravity="center_vertical|right">
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtLeftMessageUserName"
+                    style="?textview_blue_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:scrollbars="none"/>
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtLeftMessageSubject"
+                    style="?textview_white_h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    android:scrollbars="none"/>
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtLeftMessageDate"
+                    style="?textview_white_h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:scrollbars="none"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lnrRightUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:id="@+id/lnrRightClickable"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="-8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/list_item_box_right"
+                android:gravity="center_vertical">
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtRightMessageUserName"
+                    style="?textview_blue_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:scrollbars="none"/>
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtRightMessageSubject"
+                    style="?textview_white_h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    android:scrollbars="none"/>
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtRightMessageDate"
+                    style="?textview_white_h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:scrollbars="none"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.ijoomer.customviews.RoundedImageView
+                    android:id="@+id/imgRightUserIcon"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="fitXY"
+                    app:is_oval="false"
+                    app:corner_radius="360dp"
+                    app:border_color="@color/blue"/>
+                <ProgressBar
+                    android:id="@+id/pbrRightImageLoad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

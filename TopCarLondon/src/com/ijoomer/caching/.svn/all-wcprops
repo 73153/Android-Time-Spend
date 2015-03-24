@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/caching
+END
+IjoomerArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/caching/IjoomerArrayList.java
+END
+IjoomerCachingConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/caching/IjoomerCachingConstants.java
+END
+IjoomerCaching.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/caching/IjoomerCaching.java
+END
+IjoomerTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/caching/IjoomerTable.java
+END
+IjoomerCachingInsertListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/caching/IjoomerCachingInsertListener.java
+END
+IjoomerOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/caching/IjoomerOpenHelper.java
+END
+IjoomerDataHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/caching/IjoomerDataHelper.java
+END

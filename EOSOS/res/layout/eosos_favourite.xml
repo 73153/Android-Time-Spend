@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ijoomer_background"
+    android:orientation="vertical" >
+
+    <com.eosos.customviews.IjoomerAutoCompleteTextView
+        android:id="@+id/edtClub"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/text_box"
+        android:gravity="left|center_vertical"
+        android:hint="@string/hint_enter_club"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"
+        android:textColor="@color/txt_header"
+        android:textColorHint="@color/txt_header"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <com.eosos.customviews.IjoomerIndexableListView
+        android:id="@+id/favouriteList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:fastScrollEnabled="true" >
+    </com.eosos.customviews.IjoomerIndexableListView>
+
+</LinearLayout>

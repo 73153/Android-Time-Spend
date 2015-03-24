@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces
+END
+HttpAccessListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/HttpAccessListener.java
+END
+ShareListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/ShareListner.java
+END
+IjoomerClickListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/IjoomerClickListner.java
+END
+IjoomerKeys.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/IjoomerKeys.java
+END
+PhotoTagListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/PhotoTagListener.java
+END
+IjoomerSharedPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/IjoomerSharedPreferences.java
+END
+ReportListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/ReportListner.java
+END
+CustomClickListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/CustomClickListner.java
+END
+CustomSliderListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/CustomSliderListener.java
+END
+SelectImageDialogListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/SelectImageDialogListner.java
+END
+AnnouncementAndDiscussionListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/AnnouncementAndDiscussionListner.java
+END
+URLSpanClickListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/custom/interfaces/URLSpanClickListener.java
+END

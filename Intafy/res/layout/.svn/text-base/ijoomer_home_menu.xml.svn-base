@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    style="?background"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <HorizontalScrollView
+            android:id="@+id/hsvNetwork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/lnrNetwork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgDirectories"
+                    android:layout_width="120dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/home_directory_icon_en"/>
+
+                <ImageView
+                    android:id="@+id/imgProfile"
+                    android:layout_width="90dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="90dp"
+                    android:layout_above="@id/imgDirectories"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/home_profile_icon_en"/>
+
+                <ImageView
+                    android:id="@+id/imgSocial"
+                    android:layout_width="90dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="90dp"
+                    android:layout_below="@id/imgDirectories"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/home_social_stream_icon_en"/>
+
+                <ImageView
+                    android:id="@+id/imgMessage"
+                    android:layout_width="90dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="90dp"
+                    android:layout_below="@id/imgProfile"
+                    android:layout_toLeftOf="@id/imgDirectories"
+                    android:layout_marginTop="-30dp"
+                    android:src="@drawable/home_messages_icon_en"/>
+
+                <ImageView
+                    android:id="@+id/imgCircle"
+                    android:layout_width="90dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="90dp"
+                    android:layout_below="@id/imgProfile"
+                    android:layout_marginTop="-30dp"
+                    android:layout_toRightOf="@id/imgDirectories"
+                    android:src="@drawable/home_circles_icon_en"/>
+
+                <ImageView
+                    android:id="@+id/imgNews"
+                    android:layout_width="90dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="90dp"
+                    android:layout_below="@id/imgMessage"
+                    android:layout_marginTop="45dp"
+                    android:layout_toLeftOf="@id/imgDirectories"
+                    android:src="@drawable/home_news_icon_en"/>
+
+                <ImageView
+                    android:id="@+id/imgEvent"
+                    android:layout_width="90dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="90dp"
+                    android:layout_below="@id/imgCircle"
+                    android:layout_toRightOf="@id/imgDirectories"
+                    android:layout_marginTop="45dp"
+                    android:src="@drawable/home_event_icon_en"/>
+
+                </RelativeLayout>
+        </ViewFlipper>
+        <ImageView
+            android:id="@+id/networkLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgSettings"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_height="45dp"
+        android:src="@drawable/setting_icon_en"/>
+</LinearLayout>

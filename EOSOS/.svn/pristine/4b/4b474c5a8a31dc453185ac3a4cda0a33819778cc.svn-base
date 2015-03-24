@@ -1,0 +1,183 @@
+package com.eosos.components.main;
+
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
+import android.widget.PopupWindow.OnDismissListener;
+
+import com.androidquery.AQuery;
+import com.eosos.common.classes.IjoomerUtilities;
+import com.eosos.customviews.IjoomerTextView;
+import com.eosos.library.EososDataProvider;
+import com.eosos.src.R;
+import com.eosos.weservice.WebCallListenerWithCacheInfo;
+import com.smart.framework.CustomAlertNeutral;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class EososNearByEntryListActivity extends EososMasterActivity {
+	private IjoomerTextView txtList;
+	private IjoomerTextView txtMap;
+	public ImageView imgMapType;
+	public ImageView imgUnit;
+	private EososMapFragment mapFragment;
+	private EososNearByEntryListFragment lstFragment;
+	private EososDataProvider dataProvider;
+	private String IN_SECTION_ID = "54";
+	public int nearByRangInMile = 15;
+	private String latitude, longitude;
+	public static boolean isNearData;
+	private AQuery aQuery;
+	private boolean isUnitPressed;
+	private ArrayList<HashMap<String, String>> data = new ArrayList<HashMap<String, String>>();
+
+	@Override
+	public int setLayoutId() {
+		return R.layout.eosos_near_by_entry;
+	}
+
+	@Override
+	public void initComponents() {
+		txtList = (IjoomerTextView) findViewById(R.id.txtList);
+		txtMap = (IjoomerTextView) findViewById(R.id.txtMap);
+		imgMapType = (ImageView) findViewById(R.id.imgMapType);
+		imgUnit = (ImageView) findViewById(R.id.imgUnit);
+		dataProvider = new EososDataProvider(this);
+		aQuery = new AQuery(this);
+	}
+
+	@Override
+	public void prepareViews() {
+
+		((IjoomerTextView) getHeaderView().findViewById(R.id.txtHeader)).setText(getString(R.string.locations));
+		imgMapType.setVisibility(View.VISIBLE);
+		imgUnit.setVisibility(View.INVISIBLE);
+		latitude = getLatitude();
+		longitude = getLongitude();
+
+		// latitude = "51.5085300";
+		// longitude = "-0.1257400";
+		txtMap.setTextColor(getResources().getColor(R.color.red));
+		isNearData = true;
+		mapFragment = new EososMapFragment(new ArrayList<HashMap<String, String>>(), "", "nearby");
+		addFragment(R.id.lnrFragment, mapFragment);
+		getNearBy();
+
+	}
+
+	@Override
+	public void setActionListeners() {
+		imgUnit.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				if (isUnitPressed) {
+					aQuery.id(imgUnit).image(getResources().getDrawable(R.drawable.unit_btn_icon_normal));
+					isUnitPressed = false;
+				} else {
+					aQuery.id(imgUnit).image(getResources().getDrawable(R.drawable.unit_btn_icon_selected));
+					isUnitPressed = true;
+				}
+				lstFragment.changeDistanceUnit(isUnitPressed);
+			}
+		});
+		txtMap.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				if (imgMapType.getVisibility() != View.VISIBLE) {
+					txtMap.setTextColor(getResources().getColor(R.color.red));
+					txtList.setTextColor(getResources().getColor(R.color.txt_color));
+					imgMapType.setVisibility(View.VISIBLE);
+					imgUnit.setVisibility(View.INVISIBLE);
+					mapFragment = new EososMapFragment(lstFragment.getClubs(), "", "nearby");
+					addFragment(R.id.lnrFragment, mapFragment);
+
+					if (lstFragment.getClubs() == null || lstFragment.getClubs().size() <= 0) {
+						try {
+							IjoomerUtilities.getCustomOkDialog(getString(R.string.locations), getString(getResources().getIdentifier("code" + (204), "string", getPackageName())),
+									getString(R.string.ok), R.layout.ijoomer_ok_dialog, new CustomAlertNeutral() {
+
+										@Override
+										public void NeutralMethod() {
+
+										}
+									});
+						} catch (Exception e) {
+							e.printStackTrace();
+						}
+					}
+				}
+			}
+		});
+
+		txtList.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				if (imgMapType.getVisibility() != View.INVISIBLE) {
+					txtList.setTextColor(getResources().getColor(R.color.red));
+					txtMap.setTextColor(getResources().getColor(R.color.txt_color));
+					imgMapType.setVisibility(View.INVISIBLE);
+					if (lstFragment != null && lstFragment.getClubs().size() > 0) {
+						imgUnit.setVisibility(View.VISIBLE);
+					}
+					lstFragment = new EososNearByEntryListFragment(data);
+					addFragment(R.id.lnrFragment, lstFragment);
+				}
+			}
+		});
+		imgMapType.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				aQuery.id(imgMapType).image(getResources().getDrawable(R.drawable.map_btn_icon_selected));
+				mapFragment.showPopupMapType(v, new OnDismissListener() {
+
+					@Override
+					public void onDismiss() {
+						aQuery.id(imgMapType).image(getResources().getDrawable(R.drawable.map_btn_icon_normal));
+					}
+				});
+			}
+		});
+	}
+
+	private void getNearBy() {
+		dataProvider.getNearBy(IN_SECTION_ID, latitude, longitude, nearByRangInMile + "", new WebCallListenerWithCacheInfo() {
+
+			@Override
+			public void onProgressUpdate(int progressCount) {
+			}
+
+			@Override
+			public void onCallComplete(int responseCode, String errorMessage, ArrayList<HashMap<String, String>> data1, Object data2, int pageNo, int pageLimit, boolean fromCache) {
+				try {
+					if (data1 != null) {
+						imgMapType.setVisibility(View.VISIBLE);
+						imgUnit.setVisibility(View.INVISIBLE);
+						mapFragment.update(data1);
+						data = data1;
+					} else {
+						mapFragment.update(new ArrayList<HashMap<String, String>>());
+						if (data1 == null || data1.size() == 0) {
+							try {
+								IjoomerUtilities.getCustomOkDialog(getString(R.string.locations),
+										getString(getResources().getIdentifier("code" + responseCode, "string", getPackageName())), getString(R.string.ok),
+										R.layout.ijoomer_ok_dialog, new CustomAlertNeutral() {
+
+											@Override
+											public void NeutralMethod() {
+
+											}
+										});
+							} catch (Exception e) {
+								e.printStackTrace();
+							}
+						}
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+}

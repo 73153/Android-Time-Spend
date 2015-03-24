@@ -1,0 +1,230 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lnrCardFront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/shadow_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imgSuiteIconFront"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/suite_one_corner"/>
+
+                    <com.ijoomer.tips.customviews.CustomBoldTextView
+                        android:id="@+id/txtSuiteNameFront"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/pink"
+                        android:textSize="@dimen/extra_large_text_size"
+                        android:layout_marginLeft="@dimen/large_margin"
+                        android:layout_gravity="center_vertical"
+                        android:text="Set Direction"/>
+                </FrameLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/large_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <com.ijoomer.tips.customviews.CustomBoldTextView
+                        android:id="@+id/txtDriverTipName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/pink"
+                        android:textSize="@dimen/large_text_size"
+                        android:text="Vision"/>
+
+                    <com.ijoomer.tips.customviews.CustomTextView
+                        android:id="@+id/txtTip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey"
+                        android:layout_marginTop="@dimen/medium_margin"
+                        android:textSize="@dimen/medium_text_size"
+                       android:scrollbars="none"
+                        android:lineSpacingExtra="5dp"
+                        android:text="Tip Name"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/slidemenu_logo"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrCardBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/shadow_background">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imgSuiteIconBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/suite_one_corner"/>
+
+                    <com.ijoomer.tips.customviews.CustomBoldTextView
+                        android:id="@+id/txtSuiteNameBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/pink"
+                        android:textSize="@dimen/extra_large_text_size"
+                        android:layout_marginLeft="@dimen/large_margin"
+                        android:layout_gravity="center_vertical"
+                        android:text="Set Direction"/>
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/large_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <com.ijoomer.tips.customviews.CustomTextView
+                        android:id="@+id/txtQuestionOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey"
+                        android:layout_marginTop="@dimen/medium_margin"
+                       android:scrollbars="none"
+                        android:lineSpacingExtra="5dp"
+                        android:lines="2"
+                        android:maxLines="2"
+                        android:textSize="@dimen/medium_text_size"
+                        android:text="Question number 1 relating to this tip ?"/>
+
+                    <com.ijoomer.tips.customviews.CustomTextView
+                        android:id="@+id/txtQuestionTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey"
+                        android:layout_marginTop="@dimen/medium_margin"
+                       android:scrollbars="none"
+                        android:lineSpacingExtra="5dp"
+                        android:lines="2"
+                        android:maxLines="2"
+                        android:textSize="@dimen/medium_text_size"
+                        android:text="Question number 2 relating to this tip ?"/>
+
+                    <com.ijoomer.tips.customviews.CustomTextView
+                        android:id="@+id/txtQuestionThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey"
+                        android:layout_marginTop="@dimen/medium_margin"
+                        android:lineSpacingExtra="5dp"
+                       android:scrollbars="none"
+                        android:lines="2"
+                        android:maxLines="2"
+                        android:textSize="@dimen/medium_text_size"
+                        android:text="Question number 3 relating to this tip ?"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/large_margin">
+
+
+                    <ImageView
+                        android:id="@+id/imgSuggest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/suggest_selector"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:id="@+id/imgShare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/share_selector"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:id="@+id/imgFavourite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/favourit_selector"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ViewFlipper>
+
+    <ProgressBar
+        android:id="@+id/pbrLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+</FrameLayout>

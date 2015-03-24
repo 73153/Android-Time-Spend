@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+
+    </style>
+
+    <style name="anim_bottom_in_out_style">
+        <item name="android:windowEnterAnimation">@anim/anim_slide_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_slide_bottom_out</item>
+    </style>
+
+    <style name="anim_left_in_out_style">
+        <item name="android:windowEnterAnimation">@anim/anim_slide_left_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_slide_left_out</item>
+    </style>
+
+    <style name="AnimBottomInOut" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/anim_bottom_in_out_style</item>
+    </style>
+
+    <style name="AnimLeftInOut" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/anim_left_in_out_style</item>
+    </style>
+
+
+
+</resources>

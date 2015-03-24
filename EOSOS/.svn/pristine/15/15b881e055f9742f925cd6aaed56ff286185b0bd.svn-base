@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/lnrFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="35dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <!--     <View -->
+    <!--         android:layout_width="match_parent" -->
+    <!--         android:layout_height="1dp" -->
+    <!--         android:layout_marginLeft="20dp" -->
+    <!--         android:layout_marginRight="20dp" -->
+    <!--         android:background="@drawable/bottom_line" /> -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@drawable/tabbar_bg"
+        android:orientation="horizontal" >
+        <!-- android:button="@drawable/eosos_unit_btn" /> -->
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioGroup
+                android:id="@+id/rdgListMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal" >
+
+                <com.eosos.customviews.IjoomerTextView
+                    style="?textview_h4"
+                    android:id="@+id/txtList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:text="@string/lst" />
+
+                <com.eosos.customviews.IjoomerTextView
+                    style="?textview_h4"
+                    android:id="@+id/txtMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/btnmap" />
+
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/imgMapType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/rdgListMap"
+                android:src="@drawable/map_btn_icon_normal"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/imgUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/rdgListMap"
+                android:src="@drawable/unit_btn_icon_normal"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/pbrLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

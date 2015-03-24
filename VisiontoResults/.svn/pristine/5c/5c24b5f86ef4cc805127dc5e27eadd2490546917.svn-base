@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vision to Results</string>
+    <string name="app_loading">App Loading...</string>
+    <string name="set_direction">Set Direction</string>
+    <string name="enable_execute">Enable &amp; Execute</string>
+    <string name="engage_excite">Engage &amp; Excite</string>
+    <string name="sustain_momentum">Sustain Momentum</string>
+
+    <string name="today_tip">Check out today tip !!!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="inspire_me">&lt;font color=\'#ee2b7b\'>Inspire &lt;/font> &lt;font color=\'#60605b\'>Me &lt;/font></string>
+    <string name="tips_collection">&lt;font color=\'#ee2b7b\'>Tips &lt;/font> &lt;font color=\'#60605b\'>Collection &lt;/font></string>
+    <string name="my_favourites">&lt;font color=\'#ee2b7b\'>My &lt;/font> &lt;font color=\'#60605b\'>Favourites &lt;/font></string>
+    <string name="my_settings">&lt;font color=\'#ee2b7b\'>My &lt;/font> &lt;font color=\'#60605b\'>Settings &lt;/font></string>
+    <string name="share_app">&lt;font color=\'#ee2b7b\'>Share &lt;/font> &lt;font color=\'#60605b\'>App &lt;/font></string>
+    <string name="vtr_ebook">&lt;font color=\'#ee2b7b\'>VTR &lt;/font> &lt;font color=\'#60605b\'>E-Book &lt;/font></string>
+    <string name="about_teletech">&lt;font color=\'#ee2b7b\'>About &lt;/font> &lt;font color=\'#60605b\'>Teletech &lt;/font></string>
+    <string name="contact_us">&lt;font color=\'#ee2b7b\'>Contact &lt;/font> &lt;font color=\'#60605b\'>Us &lt;/font></string>
+    <string name="faqs">&lt;font color=\'#ee2b7b\'>FAQs&lt;/font></string>
+    <string name="suggest_tip">&lt;font color=\'#ee2b7b\'>Suggest a  &lt;/font> &lt;font color=\'#60605b\'>Tip &lt;/font></string>
+    <string name="call_me_back_header">&lt;font color=\'#ee2b7b\'>Call &lt;/font> &lt;font color=\'#60605b\'> me back&lt;/font></string>
+    <string name="contact_us_button">Contact Us</string>
+    <string name="call_us">Call Us</string>
+    <string name="email_us">Email Us</string>
+    <string name="email">Email</string>
+    <string name="email_address">Email address</string>
+    <string name="call_me_back">Call me back</string>
+    <string name="faq">FAQ</string>
+    <string name="website">Website</string>
+
+    <string name="from_time">From Time</string>
+    <string name="to_time">To Time</string>
+
+    <string name="vision_to_results">Vision To Results</string>
+    <string name="visit_website">Visit Website</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="country">Country</string>
+    <string name="tip">Tip</string>
+    <string name="preferred_time">Preferred Time</string>
+    <string name="save">Save</string>
+    <string name="submit">Submit</string>
+    <string name="share_tip">Share Tip</string>
+    <string name="success">Success</string>
+    <string name="error">Error</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="thank_you_for_sharing_app">Thank you for sharing Vision to Results.</string>
+    <string name="thank_you_for_suggestion">Thank you for suggestion.</string>
+    <string name="close">Close</string>
+    <string name="thank_you">Thank You</string>
+    <string name="ebook_email_submission">We have received your email and will let you know when the book is released.</string>
+    <string name="call_me_back_submission">We have received your details and one of team members will be in touch shortly.</string>
+    <string name="your_settings_updated">Your settings have been updated.</string>
+    <string name="tip_added_favourite">This Tip has been added to your favourites.</string>
+    <string name="tip_remove_favourite">This Tip has been removed from your favourites.</string>
+    <string name="app_not_installed">App Not Installed</string>
+    <string name="no_such_app_found_for_sharing">No such app is available for sharing.</string>
+    <string name="share_via_email">Share via Email</string>
+    <string name="value_required">Value Required</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="share_via_sms">Share via SMS</string>
+    <string name="notification_on">Notification ON</string>
+    <string name="notification_off">Notification OFF</string>
+    <string name="suggest_tip_content">Have you got a great RTV Tip that you would like to share with us?</string>
+    <string name="share_app_content_one">You can share the Vision to Results App with your friends and colleagues.</string>
+    <string name="share_app_content_second">Hi,I am using a new App called Vision to Results by Teletech and thought you might find it useful.</string>
+    <string name="callmeback_content">Please enter your details below and a member of staff will get call you at your preferred time. </string>
+    <string name="vtrebook_content_first">including JP Morgan,Johnson &amp; Johnson, Macquarie Bank, Kraft  Foods, UBS, Carlsberg and Rabobank.</string>
+    <string name="vtrebook_content_second">If you would like to be notified when the VTR book is released, please enter you email address below, or get in touch using the \'Contact Us\' section in this App.</string>
+    <string name="mysetting_content">Vision to Results will send you a new \'Inspire Me\' card each day at 8.00am. You can turn this on or off using the switch below.</string>
+    <string name="about_content">Our company was founded more than three decades ago on one guiding principle: Customer relationships build on trust and simplicity deliver lasting value for everyone. In other words, happy customers equal happy companies. </string>
+
+    <string-array name="slidemenu">
+        <item>@string/inspire_me</item>
+        <item>@string/tips_collection</item>
+        <item>@string/my_favourites</item>
+        <item>@string/my_settings</item>
+        <item>@string/share_app</item>
+        <item>@string/vtr_ebook</item>
+        <item>@string/about_teletech</item>
+        <item>@string/contact_us</item>
+    </string-array>
+
+</resources>

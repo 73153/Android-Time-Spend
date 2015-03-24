@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/header_background">
+                <com.ijoomer.tips.customviews.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vtrebook_content_first"
+                    android:textSize="@dimen/large_text_size"
+                    android:scrollbars="none"
+                    android:lineSpacingExtra="5dp"
+                    android:textColor="@color/grey"
+                    android:layout_margin="@dimen/medium_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/white">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/extra_large_margin">
+
+                    <com.ijoomer.tips.customviews.CustomTextView
+                        android:id="@+id/txtContent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:lineSpacingExtra="5dp"
+                        android:text="@string/vtrebook_content_second"
+                        android:textSize="@dimen/medium_text_size"
+                        android:scrollbars="none"
+                        android:textColor="@color/grey"/>
+
+
+                    <com.ijoomer.tips.customviews.CustomEditTex
+                        android:id="@+id/edtEmailAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext"
+                        android:hint="@string/email_address"
+                        android:textSize="@dimen/medium_text_size"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:layout_marginTop="@dimen/medium_margin"
+                        android:textColor="@color/grey"/>
+
+                    <Button
+                        android:id="@+id/btnSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="@string/submit"
+                        android:textSize="@dimen/medium_text_size"
+                        android:layout_marginTop="@dimen/medium_margin"
+                        android:background="@drawable/pink_button_selector"/>
+
+                    <Button
+                        android:id="@+id/btnContactUs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/pink"
+                        android:text="@string/contact_us_button"
+                        android:textSize="@dimen/medium_text_size"
+                        android:layout_marginTop="@dimen/medium_margin"
+                        android:background="@drawable/pink_border_button_selector"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/pbrLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+
+
+</LinearLayout>

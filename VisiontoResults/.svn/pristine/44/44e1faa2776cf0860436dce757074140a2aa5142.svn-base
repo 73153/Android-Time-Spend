@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shadow_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/large_margin">
+
+        <com.ijoomer.tips.customviews.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mysetting_content"
+            android:textSize="@dimen/large_text_size"
+           android:scrollbars="none"
+            android:lineSpacingExtra="3dp"
+            android:textColor="@color/grey"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/medium_margin">
+
+            <ToggleButton
+                android:id="@+id/toggleNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textOn=""
+                android:textOff=""
+                android:background="@drawable/toggle_button_selector"/>
+
+            <com.ijoomer.tips.customviews.CustomTextView
+                android:id="@+id/txtNotificationOnOff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/large_text_size"
+                android:layout_marginLeft="@dimen/medium_margin"
+                android:textColor="@color/grey"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/save"
+        android:textSize="@dimen/medium_text_size"
+        android:layout_margin="@dimen/large_margin"
+        android:background="@drawable/pink_button_selector"/>
+</LinearLayout>

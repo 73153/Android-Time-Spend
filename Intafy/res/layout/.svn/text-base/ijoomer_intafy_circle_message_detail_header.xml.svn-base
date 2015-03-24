@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnrHeader"
+    style="?header"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:weightSum="5"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/lnrHeaderLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:layout_weight="1.5">
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtFirst"
+            style="?textview_white_h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <com.ijoomer.customviews.IjoomerTextView
+        android:id="@+id/txtHeader"
+        style="?textview_blue_h4"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:scrollHorizontally="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:text="@string/intafy_networks"/>
+
+    <LinearLayout
+        android:id="@+id/lnrHeaderRight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:layout_weight="1.5">
+        <ImageView
+            android:id="@+id/imgMapUserAvatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/top_bar_circles_icon"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

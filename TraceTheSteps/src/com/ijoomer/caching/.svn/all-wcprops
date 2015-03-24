@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/caching
+END
+IjoomerArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/caching/IjoomerArrayList.java
+END
+IjoomerCachingConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/caching/IjoomerCachingConstants.java
+END
+IjoomerCaching.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/caching/IjoomerCaching.java
+END
+IjoomerTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/caching/IjoomerTable.java
+END
+IjoomerCachingInsertListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/caching/IjoomerCachingInsertListener.java
+END
+IjoomerOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/caching/IjoomerOpenHelper.java
+END
+IjoomerDataHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/caching/IjoomerDataHelper.java
+END

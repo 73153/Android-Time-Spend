@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?sobipro_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/sobipro_search_title_bg">
+
+            <com.mycadiz.customviews.IjoomerTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?textview_white_h6"
+                android:text="@string/sobipro_search"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.60"
+            android:gravity="center">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        android:id="@+id/txtSearchWhat"
+                        style="?textview_h3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/sobipro_select_category"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ijoomer_spinner"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        android:id="@+id/txtSearchNear"
+                        style="?textview_h3"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/sobipro_select_town"
+                        android:background="@drawable/ijoomer_spinner"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?textview_h3"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/sobipro_select_town_result_top"/>
+
+                    <com.mycadiz.customviews.IjoomerButton
+                        android:id="@+id/btnSearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="?sobipro_button"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/sobipro_browse"/>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/blue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.40"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <com.mycadiz.customviews.IjoomerEditText
+                    android:id="@+id/edtSearchWhat"
+                    style="?sobipro_search_left_edittext_h2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/txt_color"
+                    android:singleLine="true"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/sobipro_what"/>
+
+                <com.mycadiz.customviews.IjoomerEditText
+                    android:id="@+id/edtSearchNear"
+                    style="?sobipro_search_right_edittext_h2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:textColorHint="@color/txt_color"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionSearch"
+                    android:hint="@string/sobipro_near"/>
+
+                <ImageView
+                    android:id="@+id/imgSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/sobipro_search_btn"/>
+            </LinearLayout>
+            <com.mycadiz.customviews.IjoomerTextView
+                style="?textview_h3"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sobipro_select_town_result_bottom"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/pbrLoading"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</RelativeLayout>

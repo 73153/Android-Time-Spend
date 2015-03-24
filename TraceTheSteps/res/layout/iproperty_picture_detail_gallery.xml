@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/lineItemUDetail"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent" >
+
+    <com.ijoomer.customviews.IjoomerViewPager
+       android:id="@+id/viewPager"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:background="@android:color/black" />
+
+    <Gallery
+       android:id="@+id/gallary"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom"
+       android:background="@color/parot_green"
+       android:padding="2dp" />
+
+    <ProgressBar
+       android:id="@+id/pbrLoadImage"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:visibility="gone" />
+
+</FrameLayout>

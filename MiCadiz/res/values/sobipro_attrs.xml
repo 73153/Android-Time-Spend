@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="sobipro_background" format="reference" />
+    <attr name="sobipro_button" format="reference" />
+
+    <attr name="sobipro_spinner" format="reference" />
+
+    <attr name="sobipro_textview_h2" format="reference" />
+    <attr name="sobipro_textview_h3" format="reference" />
+    <attr name="sobipro_textview_h4" format="reference" />
+    <attr name="sobipro_textview_h6" format="reference" />
+
+    <attr name="sobipro_textview_white_h1" format="reference" />
+    <attr name="sobipro_textview_white_h2" format="reference" />
+    <attr name="sobipro_textview_white_h3" format="reference" />
+    <attr name="sobipro_textview_white_h4" format="reference" />
+    <attr name="sobipro_textview_white_h6" format="reference" />
+
+    <attr name="sobipro_textview_red_h1" format="reference" />
+    <attr name="sobipro_textview_red_h2" format="reference" />
+    <attr name="sobipro_textview_red_h3" format="reference" />
+    <attr name="sobipro_textview_red_h4" format="reference" />
+    <attr name="sobipro_textview_red_h6" format="reference" />
+
+    <attr name="sobipro_textview_black_h1" format="reference" />
+    <attr name="sobipro_textview_black_h2" format="reference" />
+    <attr name="sobipro_textview_black_h3" format="reference" />
+
+    <attr name="sobipro_textview_light_green_h1" format="reference" />
+
+    <attr name="sobipro_edittext_h1" format="reference" />
+    <attr name="sobipro_edittext_h2" format="reference" />
+    <attr name="sobipro_search_left_edittext_h2" format="reference" />
+    <attr name="sobipro_search_right_edittext_h2" format="reference" />
+
+    <attr name="sobipro_header" format="reference" />
+    <attr name="sobipro_footer" format="reference" />
+
+    <attr name="sobipro_textview_detail_dark_h2" format="reference" />
+    <attr name="sobipro_textview_detail_dark_h3" format="reference" />
+    <attr name="sobipro_textview_detail_light_h2" format="reference" />
+    <attr name="sobipro_textview_detail_light_h3" format="reference" />
+</resources>

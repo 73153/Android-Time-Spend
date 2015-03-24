@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_color">#ffe7e7e8</color>
+    <color name="brown">#ff925219</color>
+    <color name="orange">#fff4ab45</color>
+    <color name="parot_green">#ff90c04c</color>
+    <color name="blue">#ff725850</color>
+    <color name="white">#ffffffff</color>
+    <color name="lightgray">#ffeee3d1</color>
+    <color name="red">#ffff0000</color>
+    <color name="txt_color">#ff797979</color>
+    <color name="edit_color">#ff797979</color>
+    <color name="sidemenu">#ff342826</color>
+    <color name="sidemenu_background">#ff4e3e39</color>
+    <color name="text_shadow">#ffffffff</color>
+    <color name="category_bg_color">#ff5e4e4f</color>
+    <color name="profile_cover_bg_color">#ffe6dcce</color>
+    <color name="transparent_bg">#cbffffff</color>
+    <color name="transparent_dark_bg">#ca000000</color>
+    <color name="voice_messager_bg">#ffd2cab4</color>
+    <color name="radio_check_bg">#ffba998b</color>
+    <color name="black">#ff000000</color>
+
+</resources>

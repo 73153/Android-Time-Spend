@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="40dp">
+
+    <com.eosos.customviews.IjoomerAutoCompleteTextView
+        android:id="@+id/edtCity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/text_box"
+        android:gravity="left|center_vertical"
+        android:hint="@string/eosos_entercity"
+        android:textColor="@color/txt_header"
+        android:textColorHint="@color/txt_header"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spnSelectNight"
+        style="?textview_blue_h3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/ijoomer_spinner"
+        android:gravity="left|center_vertical"
+        android:prompt="@string/select_night" />
+
+    <com.eosos.customviews.IjoomerTextView
+        android:id="@+id/txtPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/eosos_plan"
+        android:textColor="@color/txt_color"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.eosos.src"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ijoomer_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="55dp" >
+
+        <Spinner
+            android:id="@+id/spnSelectSubject"
+            style="?textview_blue_h3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/ijoomer_spinner"
+            android:gravity="left|center_vertical"
+            android:prompt="@string/select_subject" />
+
+        <com.eosos.customviews.IjoomerEditText
+            android:id="@+id/edtComment"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/eosos_box_img"
+            android:gravity="top"
+            android:hint="@string/eosos_comment"
+            android:lines="5"
+            android:textColorHint="@color/txt_color" />
+
+        <SeekBar
+            android:id="@+id/seekFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/seekbar"
+            android:progress="0"
+            android:progressDrawable="@android:color/transparent"
+            android:thumb="@drawable/seekbar_msg_thumb"
+            android:thumbOffset="0dp" />
+    </LinearLayout>
+
+</ScrollView>

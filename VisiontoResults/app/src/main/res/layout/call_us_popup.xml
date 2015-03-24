@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/transperent">
+
+    <com.ijoomer.tips.customviews.CustomBoldTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call_us"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/extra_large_margin"
+        android:textSize="@dimen/large_text_size"/>
+
+    <ListView
+        android:id="@+id/lstCallUs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="0dp"
+        android:divider="@color/transperent"
+        android:layout_marginLeft="@dimen/large_margin"
+        android:layout_marginRight="@dimen/large_margin"
+        android:scrollbars="none"
+        android:listSelector="@color/transperent"/>
+
+    <com.ijoomer.tips.customviews.CustomTextView
+        android:id="@+id/txtPopupClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/close"
+        android:textColor="@color/pink"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:layout_marginTop="@dimen/normal_margin"
+        android:textSize="@dimen/medium_text_size"/>
+</LinearLayout>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/weservice
+END
+CustomMultiPartEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/weservice/CustomMultiPartEntity.java
+END
+IjoomerWebService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/weservice/IjoomerWebService.java
+END
+MySSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/weservice/MySSLSocketFactory.java
+END
+WebCallListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/weservice/WebCallListener.java
+END
+CacheCallListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/weservice/CacheCallListener.java
+END
+WebCallListenerWithCacheInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/weservice/WebCallListenerWithCacheInfo.java
+END
+ProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/weservice/ProgressListener.java
+END

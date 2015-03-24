@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/sobipro_search_title_bg"
+    android:orientation="vertical"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/lnrEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/imgEntryIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/sobipro_default_image" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <com.mycadiz.customviews.IjoomerTextView
+                android:id="@+id/txtTitle"
+                style="?sobipro_textview_red_h4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.mycadiz.customviews.IjoomerTextView
+                android:id="@+id/txtAddress"
+                style="?sobipro_textview_red_h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/sobipro_list_item_location"
+                android:maxLines="2"
+                android:drawablePadding="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <com.mycadiz.customviews.IjoomerTextView
+                    android:id="@+id/txtPhone"
+                    style="?sobipro_textview_red_h2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/sobipro_list_item_call"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:visibility="invisible"
+                    android:singleLine="true"/>
+
+                <com.mycadiz.customviews.IjoomerTextView
+                    android:id="@+id/txtDistance"
+                    style="?sobipro_textview_red_h2"
+                    android:layout_width="wrap_content"
+                    android:ellipsize="end"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/sobipro_list_item_go_arrow"
+                    android:drawablePadding="5dp"
+                    android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrThingsToDoEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <com.mycadiz.customviews.IjoomerTextView
+            android:id="@+id/txtThingsToDoTitle"
+            style="?sobipro_textview_white_h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:padding="10dp"
+            android:lines="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

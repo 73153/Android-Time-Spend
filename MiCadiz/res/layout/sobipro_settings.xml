@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/sobipro_settings_arrow"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_dark"
+        android:minWidth="60dp"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <com.mycadiz.customviews.IjoomerTextView
+            android:id="@+id/txtSynchronization"
+            style="?textview_blue_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/bg_color"
+            android:padding="5dp"
+            android:text="@string/synchronization"
+            android:textStyle="bold" />
+
+        <com.mycadiz.customviews.IjoomerTextView
+            android:id="@+id/txtChangeLanguage"
+            style="?textview_blue_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/bg_color"
+            android:padding="5dp"
+            android:text="@string/change_language"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

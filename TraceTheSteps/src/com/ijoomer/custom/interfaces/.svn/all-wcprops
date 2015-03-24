@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/21890/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces
+END
+ShareListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces/ShareListner.java
+END
+IjoomerClickListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces/IjoomerClickListner.java
+END
+IjoomerKeys.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces/IjoomerKeys.java
+END
+PhotoTagListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces/PhotoTagListener.java
+END
+IjoomerSharedPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/21890/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces/IjoomerSharedPreferences.java
+END
+ReportListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces/ReportListner.java
+END
+CustomClickListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces/CustomClickListner.java
+END
+CustomSliderListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces/CustomSliderListener.java
+END
+SelectImageDialogListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces/SelectImageDialogListner.java
+END
+AnnouncementAndDiscussionListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/custom/interfaces/AnnouncementAndDiscussionListner.java
+END

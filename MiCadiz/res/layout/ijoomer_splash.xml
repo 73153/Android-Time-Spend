@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ijoomer_splash"
+    android:gravity="center_horizontal|bottom" >
+
+    <LinearLayout
+        android:id="@+id/lnrSync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.mycadiz.customviews.IjoomerTextView
+            android:id="@+id/txtSync"
+            style="?textview_white_h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/sync_with_server" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp">
+
+            <com.mycadiz.customviews.IjoomerTextView
+                android:id="@+id/txtLoadingMsg"
+                style="?textview_white_h3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/alert_loading_data"
+                android:textColor="@color/white" />
+
+            <com.mycadiz.customviews.IjoomerTextView
+                android:id="@+id/txtProgress"
+                style="?textview_white_h3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/skProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:color/white"
+            android:gravity="center|center_vertical"
+            android:progressDrawable="@drawable/ijoomer_progress_drawable"
+            android:thumb="@null" />
+    </LinearLayout>
+
+</RelativeLayout>

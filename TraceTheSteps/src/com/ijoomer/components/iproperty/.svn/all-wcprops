@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/21890/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty
+END
+IPropertyPictureAddActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyPictureAddActivity.java
+END
+IPropertySearchResultListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertySearchResultListActivity.java
+END
+IPropertyCommentAddActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyCommentAddActivity.java
+END
+IPropertyMasterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyMasterActivity.java
+END
+IPropertyCachingConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyCachingConstants.java
+END
+IPropertyCommentListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyCommentListActivity.java
+END
+IPropertyMapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyMapActivity.java
+END
+IPropertySearchResultDetailsListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertySearchResultDetailsListActivity.java
+END
+IPropertyTagHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyTagHolder.java
+END
+IPropertyShareSmsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyShareSmsActivity.java
+END
+IPropertyGalleryFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyGalleryFragment.java
+END
+IPropertyPictureDetailFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyPictureDetailFragment.java
+END
+IPropertyPictureDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyPictureDetailActivity.java
+END
+IPropertyFavouriteListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/21890/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyFavouriteListActivity.java
+END
+IPropertySearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertySearchActivity.java
+END
+IPropertyDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyDetailsActivity.java
+END
+IPropertyDetailGalleryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/iproperty/IPropertyDetailGalleryActivity.java
+END

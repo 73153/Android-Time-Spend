@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/page/indicator
+END
+PageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/page/indicator/PageIndicator.java
+END
+CirclePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/page/indicator/CirclePageIndicator.java
+END
+LinePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/page/indicator/LinePageIndicator.java
+END
+TabPageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/page/indicator/TabPageIndicator.java
+END
+IcsLinearLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/page/indicator/IcsLinearLayout.java
+END
+TitlePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/page/indicator/TitlePageIndicator.java
+END
+IconPageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/page/indicator/IconPageIndicator.java
+END
+IconPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/page/indicator/IconPagerAdapter.java
+END
+UnderlinePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/page/indicator/UnderlinePageIndicator.java
+END

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ijoomer.intafy.src"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lnrLeftEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <com.ijoomer.customviews.RoundedImageView
+            android:id="@+id/imgLeftEventIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            app:is_oval="false"
+            app:corner_radius="360dp"
+            app:border_color="@color/blue"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="-8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/list_item_box_left"
+            android:gravity="center_vertical|right">
+
+            <com.ijoomer.customviews.IjoomerTextView
+                android:id="@+id/txtLeftEventTitle"
+                style="?textview_blue_h3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:scrollbars="none"/>
+            <com.ijoomer.customviews.IjoomerTextView
+                android:id="@+id/txtLeftEventDate"
+                style="?textview_white_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:scrollbars="none"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnrRightEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="-8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/list_item_box_right"
+            android:gravity="center_vertical">
+
+            <com.ijoomer.customviews.IjoomerTextView
+                android:id="@+id/txtRightEventTitle"
+                style="?textview_blue_h3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:scrollbars="none"/>
+            <com.ijoomer.customviews.IjoomerTextView
+                android:id="@+id/txtRightEventDate"
+                style="?textview_white_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:scrollbars="none"/>
+
+        </LinearLayout>
+
+        <com.ijoomer.customviews.RoundedImageView
+            android:id="@+id/imgRightEventIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            app:is_oval="false"
+            app:corner_radius="360dp"
+            app:border_color="@color/blue"/>
+
+    </LinearLayout>
+</LinearLayout>

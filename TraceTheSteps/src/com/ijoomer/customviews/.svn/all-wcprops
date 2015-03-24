@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews
+END
+IjoomerEditText.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerEditText.java
+END
+FlingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/FlingListener.java
+END
+IjoomerSpinnerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerSpinnerAdapter.java
+END
+PhotoTagView.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/PhotoTagView.java
+END
+IjoomerProgressView.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerProgressView.java
+END
+IjoomerButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerButton.java
+END
+IjoomerTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerTextView.java
+END
+IjoomerVoiceButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerVoiceButton.java
+END
+IjoomerHorizontalScroll.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerHorizontalScroll.java
+END
+MathUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/MathUtils.java
+END
+TwitterOAuthView.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/TwitterOAuthView.java
+END
+MoveAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/MoveAnimationListener.java
+END
+IjoomerHorizontalAutoScroller.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerHorizontalAutoScroller.java
+END
+ZoomAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/ZoomAnimationListener.java
+END
+CoverFlow.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/CoverFlow.java
+END
+IjoomerGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerGridView.java
+END
+GifDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/GifDecoder.java
+END
+IjoomerAudioPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerAudioPlayer.java
+END
+IjoomerMultiPurposeSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerMultiPurposeSelector.java
+END
+IjoomerRatingBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerRatingBar.java
+END
+FlingAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/FlingAnimationListener.java
+END
+IjoomerFacebookWebview.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerFacebookWebview.java
+END
+CustomSliderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/CustomSliderView.java
+END
+IjoomerVoiceAndTextMessager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerVoiceAndTextMessager.java
+END
+IjoomerRadioButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerRadioButton.java
+END
+MoveAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/MoveAnimation.java
+END
+ZoomAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/ZoomAnimation.java
+END
+IjoomerGifView.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerGifView.java
+END
+GestureImageViewListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/GestureImageViewListener.java
+END
+SeekBarWithTwoThumb.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/SeekBarWithTwoThumb.java
+END
+FlingAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/FlingAnimation.java
+END
+Animator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/Animator.java
+END
+IjoomerPullToRefreshListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerPullToRefreshListView.java
+END
+IjoomerViewPager.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerViewPager.java
+END
+Animation.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/Animation.java
+END
+VectorF.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/VectorF.java
+END
+RangeSeekBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/RangeSeekBar.java
+END
+GestureImageViewTouchListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/GestureImageViewTouchListener.java
+END
+IjoomerListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerListView.java
+END
+IjoomerCheckBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerCheckBox.java
+END
+IjoomerGallery.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerGallery.java
+END
+GestureImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/GestureImageView.java
+END
+IjoomerDataPickerView.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/customviews/IjoomerDataPickerView.java
+END

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.eosos.src"
+    android:id="@+id/icmsLrnArtListItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.eosos.customviews.IjoomerTextView
+            android:id="@+id/eososTxtCity"
+            style="?textview_white_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/entries_list_city_name_bg"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/eososLnrDirectory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="95dp"
+                android:layout_height="match_parent" >
+
+                <ProgressBar
+                    android:id="@+id/progress"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerInParent="true" />
+
+                <ImageView
+                    android:id="@+id/eososImgClub"
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+
+                    android:orientation="vertical" >
+
+                    <com.eosos.customviews.IjoomerTextView
+                        android:id="@+id/eososTxtTitle"
+                        style="?textview_blue_h3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/txt_header"
+                        android:paddingLeft="3dp"
+                        android:textStyle="bold" />
+
+                    <com.eosos.customviews.IjoomerRatingBar
+                        android:id="@+id/rtbRating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_marginTop="3dp"
+                        app:star_empty="@drawable/rating_small"
+                        app:star_filled="@drawable/rating_filled_small"
+                        app:star_half="@drawable/rating_filled_half_small"
+                        android:paddingLeft="3dp"
+                        app:star_size="30"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp">
+                        <com.eosos.customviews.IjoomerTextView
+                            android:id="@+id/eososTxtLocation"
+                            style="?textview_blue_h2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:minWidth="80dp"
+                            android:singleLine="true"
+                            android:textColor="@color/blue"
+                            android:paddingLeft="3dp"
+                            android:textStyle="bold" />
+
+                        <com.eosos.customviews.IjoomerTextView
+                            android:id="@+id/eososTxtDistance"
+                            style="?textview_blue_h2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:paddingLeft="3dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <View
+                        android:id="@+id/divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="3dp"
+                        android:background="@color/txt_color"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

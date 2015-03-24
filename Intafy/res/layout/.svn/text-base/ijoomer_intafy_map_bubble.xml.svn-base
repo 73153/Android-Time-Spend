@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ijoomer.intafy.src"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <com.ijoomer.customviews.RoundedImageView
+        android:id="@+id/imgMapUserAvatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:corner_radius="360dp"
+        app:is_oval="false"
+        app:border_color="@color/blue"
+        app:round_background="true"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:background="@drawable/ijoomer_location_detail_box"
+        android:padding="5dp"
+        android:orientation="vertical" >
+
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtMapUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?textview_blue_h3"/>
+
+        <com.ijoomer.customviews.IjoomerTextView
+            style="?textview_white_h2"
+            android:id="@+id/txtMapStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:ellipsize="end" />
+    </LinearLayout>
+
+</LinearLayout>

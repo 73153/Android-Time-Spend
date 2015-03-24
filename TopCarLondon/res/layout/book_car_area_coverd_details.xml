@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/lnrAreadCoverdName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <com.ijoomer.customviews.IjoomerTextView
+                android:id="@+id/txtAreadCoverdName"
+                style="?textview_h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:background="@color/yellow"
+                android:text="@string/area_name"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtAreadCoverNameValue"
+                    style="?textview_white_h2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrAreadCoverdDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <com.ijoomer.customviews.IjoomerTextView
+                android:id="@+id/txtAreadCoverdDescription"
+                style="?textview_h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:padding="3dp"
+                android:text="@string/description"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtAreadCoverDescriptionValue"
+                    style="?textview_white_h2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrAreadCoverdAirportRoute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <com.ijoomer.customviews.IjoomerTextView
+                android:id="@+id/txtAreadCoverdAirportRoute"
+                style="?textview_h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:padding="3dp"
+                android:text="@string/airport_route"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtAreadCoverAirportRouteValue"
+                   style="?textview_white_h2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrAreadCoverdHotels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <com.ijoomer.customviews.IjoomerTextView
+                android:id="@+id/txtAreadCoverdHotels"
+                style="?textview_h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:padding="3dp"
+                android:text="@string/hotels"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtAreadCoverHotelsValue"
+                    style="?textview_white_h2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

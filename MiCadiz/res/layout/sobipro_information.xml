@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?sobipro_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <RadioGroup
+            android:id="@+id/rdgTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:checked="true"
+                android:background="@drawable/sobipro_radio_selector_left"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_about" />
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbContact"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/sobipro_radio_selector_middle"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_contact" />
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/sobipro_radio_selector_right"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_web" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <com.mycadiz.customviews.IjoomerTextView
+        android:id="@+id/txtAbout"
+        style="?sobipro_textview_h3"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sobipro_about_text"/>
+
+</LinearLayout>

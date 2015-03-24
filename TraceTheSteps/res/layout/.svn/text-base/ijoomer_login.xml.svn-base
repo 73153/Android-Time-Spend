@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lnrLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_orange_h3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/login" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:orientation="vertical"
+                    android:padding="2dp" >
+
+                    <LinearLayout
+                        android:id="@+id/lnrScrolable"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="10dp" >
+
+                        <com.ijoomer.customviews.IjoomerEditText
+                            android:id="@+id/edtUserName"
+                            style="?edittext_h3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/bg_color"
+                            android:gravity="left|center"
+                            android:hint="@string/username"
+                            android:padding="5dp"
+                            android:singleLine="true" />
+
+                        <com.ijoomer.customviews.IjoomerEditText
+                            android:id="@+id/edtPassword"
+                            style="?edittext_h3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/bg_color"
+                            android:gravity="left|center"
+                            android:hint="@string/password"
+                            android:inputType="textPassword"
+                            android:padding="5dp"
+                            android:singleLine="true" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center_vertical" >
+
+                            <com.ijoomer.customviews.IjoomerCheckBox
+                                android:id="@+id/chkRemeberMe"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/checkbox_selector" />
+
+                            <com.ijoomer.customviews.IjoomerTextView
+                                style="?textview_h2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp"
+                                android:layout_weight="1"
+                                android:text="@string/rememberme" />
+                        </LinearLayout>
+
+                        <com.ijoomer.customviews.IjoomerButton
+                            android:id="@+id/btnLogin"
+                            style="?button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:padding="5dp"
+                            android:text="@string/login" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:visibility="gone"
+                            android:orientation="vertical" >
+
+                            <com.ijoomer.customviews.IjoomerTextView
+                                android:id="@+id/btnSignUp"
+                                 style="?textview_orange_h2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:padding="2dp"
+                                android:text="@string/create_account" />
+
+                            <com.ijoomer.customviews.IjoomerTextView
+                                android:id="@+id/btnForgetPassword"
+                                 style="?textview_orange_h2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:padding="2dp"
+                                android:text="@string/forget_password" />
+
+                            <com.ijoomer.customviews.IjoomerTextView
+                                android:id="@+id/btnForgetUserName"
+                                style="?textview_orange_h2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:padding="2dp"
+                                android:text="@string/forget_password" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:visibility="gone"
+                            android:orientation="vertical" >
+
+                            <com.ijoomer.customviews.IjoomerButton
+                                android:id="@+id/btnFbLogin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ijoomer_btn_facebook" />
+
+                            <com.ijoomer.customviews.IjoomerTextView
+                                 style="?textview_h2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="@string/facebook_connect" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrLogout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_orange_h3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/account_informations" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:orientation="vertical"
+                    android:padding="2dp" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="10dp" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" >
+
+                            <com.ijoomer.customviews.IjoomerTextView
+                                style="?textview_h3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/welcome" />
+
+                            <com.ijoomer.customviews.IjoomerTextView
+                                android:id="@+id/txtUserName"
+                                style="?textview_green_h3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp" />
+                        </LinearLayout>
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            android:id="@+id/txtWelcomeNote"
+                            style="?textview_h2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp" />
+
+                        <com.ijoomer.customviews.IjoomerButton
+                            android:id="@+id/btnLogout"
+                            style="?button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:padding="5dp"
+                            android:text="@string/logout" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

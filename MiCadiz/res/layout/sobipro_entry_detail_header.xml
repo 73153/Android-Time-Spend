@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnrDetailMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lnrDirectoryDetailHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sobipro_search_title_bg"
+        android:visibility="visible">
+        <ImageView
+            android:id="@+id/imgEntry"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sobipro_entry_default" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:gravity="bottom"
+            android:layout_height="wrap_content">
+
+            <com.mycadiz.customviews.IjoomerTextView
+                style="?sobipro_textview_red_h6"
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.mycadiz.customviews.IjoomerTextView
+                style="?sobipro_textview_red_h2"
+                android:id="@+id/txtAddress"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+                <RadioGroup
+                    android:id="@+id/rdgTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3" >
+
+                    <com.mycadiz.customviews.IjoomerRadioButton
+                        android:id="@+id/rdbWed"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:background="@drawable/sobipro_radio_selector_left"
+                        android:textColor="@drawable/sobipro_radio_selector_color"
+                        android:text="@string/sobipro_web"
+                        android:checked="false" />
+
+                    <com.mycadiz.customviews.IjoomerRadioButton
+                        android:id="@+id/rdbCall"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:background="@drawable/sobipro_radio_selector_middle"
+                        android:textColor="@drawable/sobipro_radio_selector_color"
+                        android:text="@string/sobipro_call" />
+                    <com.mycadiz.customviews.IjoomerRadioButton
+                        android:id="@+id/rdbEmail"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:background="@drawable/sobipro_radio_selector_right"
+                        android:textColor="@drawable/sobipro_radio_selector_color"
+                        android:text="@string/sobipro_email" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrThingsToDoDetailHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/sobipro_search_title_bg">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgThingsToDoDetailHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+
+            <com.mycadiz.customviews.IjoomerTextView
+                style="?sobipro_textview_red_h6"
+                android:id="@+id/txtThingsToDoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrTownDetailHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/sobipro_search_title_bg">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgTownDetailHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <com.mycadiz.customviews.IjoomerTextView
+                style="?sobipro_textview_red_h6"
+                android:id="@+id/txtTownTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrBeachDetailHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/sobipro_search_title_bg">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgBeachDetailHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <com.mycadiz.customviews.IjoomerTextView
+                style="?sobipro_textview_red_h6"
+                android:id="@+id/txtBeachTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sobipro_search_title_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <RadioGroup
+            android:id="@+id/rdgBottomDirectory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbDirectoryDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:checked="true"
+                android:background="@drawable/sobipro_radio_selector_left"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_description" />
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbDirectoryMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:visibility="visible"
+                android:background="@drawable/sobipro_radio_selector_middle"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_map"
+                android:checked="false" />
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbDirectoryPhotos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:visibility="visible"
+                android:background="@drawable/sobipro_radio_selector_middle"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_photos" />
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbDirectoryInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:background="@drawable/sobipro_radio_selector_right"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_detail_info_text" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rdgBottomThingsToDo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbThingsToDoDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/sobipro_radio_selector_left"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_description" />
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbThingsToDoInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/sobipro_radio_selector_middle"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_detail_info_text" />
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbThingsToDoPhotos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/sobipro_radio_selector_right"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_photos" />
+        </RadioGroup>
+        <RadioGroup
+            android:id="@+id/rdgBottomTown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbTownDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/sobipro_radio_selector_left"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_description" />
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbTownMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:visibility="visible"
+                android:background="@drawable/sobipro_radio_selector_middle"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_map" />
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbTownPhotos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:visibility="visible"
+                android:background="@drawable/sobipro_radio_selector_right"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_photos" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rdgBottomBeach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbBeachDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/sobipro_radio_selector_left"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_description" />
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbBeachAmenities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:visibility="visible"
+                android:background="@drawable/sobipro_radio_selector_right"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_detail_aminities" />
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbBeachPhotos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:visibility="visible"
+                android:background="@drawable/sobipro_radio_selector_middle"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_photos" />
+
+            <com.mycadiz.customviews.IjoomerRadioButton
+                android:id="@+id/rdbBeachMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:visibility="visible"
+                android:background="@drawable/sobipro_radio_selector_right"
+                android:textColor="@drawable/sobipro_radio_selector_color"
+                android:text="@string/sobipro_map" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/lnrDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <com.mycadiz.customviews.IjoomerTextView
+                    style="?sobipro_textview_detail_light_h2"
+                    android:id="@+id/txtDescription"
+                    android:layout_width="wrap_content"
+                    android:textColor="#533c17"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrThingsToDoDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <com.mycadiz.customviews.IjoomerTextView
+                    style="?sobipro_textview_detail_light_h2"
+                    android:id="@+id/txtThingsToDoDescription"
+                    android:layout_width="wrap_content"
+                    android:textColor="#533c17"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnrTownDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownJerezAirport"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownJerezAirportValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownSevilleAirport"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownSevilleAirportValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownGibralterAirport"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownGibralterAirportValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownMalagaAirport"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownMalagaAirportValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownCadizCityCentre"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownCadizCityCentreValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownPublicTransport"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtTownPublicTransportValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtSituated"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtSituatedValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <com.mycadiz.customviews.IjoomerTextView
+                    style="?sobipro_textview_detail_dark_h3"
+                    android:id="@+id/txtTownAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:text="@string/sobipro_about"/>
+
+                <com.mycadiz.customviews.IjoomerTextView
+                    style="?sobipro_textview_detail_light_h2"
+                    android:id="@+id/txtTownDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrBeachDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachLengthOfBeach"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachLengthOfBeachValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachAverageWidth"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachAverageWidthValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachCompositions"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachCompositionsValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachSummersOccupancy"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachSummersOccupancyValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachLifeGuard"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachLifeGuardValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachPublicParking"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachPublicParkingValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachPublicTransport"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachPublicTransportValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <com.mycadiz.customviews.IjoomerTextView
+                    style="?sobipro_textview_detail_dark_h3"
+                    android:id="@+id/txtBeachAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/sobipro_about"/>
+
+                <com.mycadiz.customviews.IjoomerTextView
+                    style="?sobipro_textview_detail_light_h2"
+                    android:id="@+id/txtBeachDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachClosetHospital"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtBeachClosetHospitalValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrBeachAmenities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="1dp">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesRedCross"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesRedCross"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_red_cross"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesShowers"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesShowers"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_showers"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesSunbedUmbrellaHire"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesSunbedUmbrellaHire"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_sun_bed_umbrella_hire"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesTouriestInformationOffice"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesTouriestInformationOffice"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_tourist_information_office"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesLifeGuard"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesLifeGuard"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_lifeguard"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesFoodsAvilable"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesFoodsAvilable"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_food_available"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesDisableAccess"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesDisableAccess"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_disabled_accress"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesPublicparking"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesPublicParking"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_public_parking"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesToilets"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesToilets"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_toilets"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesWaterSportsEquipmentHire"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesWaterSportsEquipmentHireValue"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_water_sports_equipment_hire"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesDrinkAvailable"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesDrinkAvailableValue"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_drinks_available"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imgBeachAminitiesPromenade"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sobipro_detail_wrong"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h3"
+                        android:id="@+id/txtBeachAminitiesPromenadeValue"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/sobipro_detail_aminities_promenade"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnrThingsToDoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtThingsToDoActivityLevel"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtThingsToDoActivityLevelValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtThingsToDoApproximateCost"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtThingsToDoApproximateCostValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtThingsToDoAgeRange"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtThingsToDoAgeRangeValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtThingsToDoDurationofActivity"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtThingsToDoDurationofActivityValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtThingsToDoSeason"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <com.mycadiz.customviews.IjoomerTextView
+                        style="?sobipro_textview_detail_dark_h2"
+                        android:id="@+id/txtThingsToDoSeasonValue"
+                        android:layout_width="wrap_content"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <Button
+                    style="?sobipro_button"
+                    android:id="@+id/btnThingsToDoBusinesses"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/sobipro_businesses"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrPhotos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgPhotosFirst"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgPhotosTwo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgPhotosThree"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgPhotosFour"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgPhotosFive"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgPhotosSix"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <FrameLayout
+        android:id="@+id/frameMap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        android:visibility="gone">
+        <LinearLayout
+            android:id="@+id/lnrMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <com.mycadiz.customviews.IjoomerButton
+            android:id="@+id/btnDirection"
+            style="?button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="right|top"
+            android:text="@string/map_direction"/>
+    </FrameLayout>
+
+
+</LinearLayout>

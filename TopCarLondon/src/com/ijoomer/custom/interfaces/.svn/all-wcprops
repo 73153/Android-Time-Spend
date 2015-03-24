@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces
+END
+ShareListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/ShareListner.java
+END
+IjoomerClickListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/IjoomerClickListner.java
+END
+IjoomerKeys.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/IjoomerKeys.java
+END
+FilterListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/FilterListener.java
+END
+PhotoTagListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/PhotoTagListener.java
+END
+IjoomerSharedPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/IjoomerSharedPreferences.java
+END
+ReportListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/ReportListner.java
+END
+CustomClickListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/CustomClickListner.java
+END
+CustomSliderListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/CustomSliderListener.java
+END
+SelectImageDialogListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/SelectImageDialogListner.java
+END
+AnnouncementAndDiscussionListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/AnnouncementAndDiscussionListner.java
+END
+CustomDateClickListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/20891/Client/Android/TopCarLondon/src/com/ijoomer/custom/interfaces/CustomDateClickListner.java
+END

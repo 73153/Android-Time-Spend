@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?footer"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/lnrFooterLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtFirst"
+            style="?textview_white_h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intafy_settings"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgBottomCenterIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:src="@drawable/footer_center_btn"
+        android:adjustViewBounds="true"/>
+    <LinearLayout
+        android:id="@+id/lnrFooterRight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtLast"
+            style="?textview_white_h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intafy_networks"/>
+    </LinearLayout>
+
+</LinearLayout>

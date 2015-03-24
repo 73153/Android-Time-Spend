@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="?background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:padding="5dp" >
+
+        <com.mycadiz.customviews.IjoomerTextView
+            android:id="@+id/txtPropertyTitle"
+            style="?textview_h3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/blue" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.75"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <com.mycadiz.customviews.IjoomerTextView
+            style="?textview_h2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/sobipro_share_recipient" />
+
+        <LinearLayout
+            android:id="@+id/lnrScrolable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <com.mycadiz.customviews.IjoomerEditText
+                    android:id="@+id/edtPhoneNo"
+                    style="?edittext_h2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/phone"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/imgPickUpPhoneNo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/bg_color"
+                    android:src="@drawable/sobipro_sms_pickup_contact" />
+            </LinearLayout>
+
+            <com.mycadiz.customviews.IjoomerEditText
+                android:id="@+id/edtMessage"
+                style="?textview_h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="top|left"
+                android:hint="@string/message"
+                android:lines="5"
+                android:padding="5dp" />
+
+            <com.mycadiz.customviews.IjoomerTextView
+                android:id="@+id/txtShareLink"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/bg_color"
+                android:ellipsize="marquee"
+                android:padding="5dp"
+                android:text="asda"
+                android:scrollHorizontally="true"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:padding="20dp" >
+
+        <com.mycadiz.customviews.IjoomerButton
+            android:id="@+id/btnSend"
+            style="?button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send" />
+    </LinearLayout>
+
+</LinearLayout>

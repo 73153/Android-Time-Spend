@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/21890/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/library/iproperty
+END
+IPropertyDetailDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/library/iproperty/IPropertyDetailDataProvider.java
+END
+IPropertyFavouriteDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/!svn/ver/21890/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/library/iproperty/IPropertyFavouriteDataProvider.java
+END
+IPropertySearchDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/library/iproperty/IPropertySearchDataProvider.java
+END

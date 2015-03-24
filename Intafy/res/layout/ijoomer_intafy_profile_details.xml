@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ijoomer.intafy.src"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:gravity="center"
+    style="?background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <com.ijoomer.customviews.RoundedImageView
+            android:id="@+id/imgUserImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:corner_radius="360dp"
+            android:layout_centerInParent="true"
+            app:is_oval="false"
+            app:border_color="@color/blue"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"/>
+
+        <ProgressBar
+            android:id="@+id/pbrImageLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtUserFristLastName"
+            style="?textview_blue_h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtUserStatus"
+            style="?textview_white_h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:visibility="gone"/>
+
+
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtUserEmail"
+            style="?textview_white_h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ProgressBar
+            android:id="@+id/pbrFieldLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <com.ijoomer.page.indicator.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp" >
+    </com.ijoomer.page.indicator.CirclePageIndicator>
+
+</LinearLayout>

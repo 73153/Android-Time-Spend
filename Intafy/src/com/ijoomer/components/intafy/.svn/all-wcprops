@@ -1,0 +1,329 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy
+END
+IjoomerIntafySettingsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafySettingsActivity.java
+END
+IjoomerIntafyMapFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyMapFragment.java
+END
+IjoomerIntafyCircleDateListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyCircleDateListFragment.java
+END
+IjoomerIntafyEventListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyEventListFragment.java
+END
+IjoomerIntafyLockAppActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyLockAppActivity.java
+END
+IjoomerIntafyMessageDetailListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyMessageDetailListActivity.java
+END
+IjoomerIntafyCircleMessageListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyCircleMessageListActivity.java
+END
+IjoomerIntafyArticleListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyArticleListActivity.java
+END
+IjoomerIntafyDirectorySearchListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyDirectorySearchListFragment.java
+END
+IjoomerIntafyInviteEventActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyInviteEventActivity.java
+END
+IntafyTagHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IntafyTagHolder.java
+END
+IjoomerIntafyNetworkAddActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyNetworkAddActivity.java
+END
+IjoomerIntafyDirectoryListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyDirectoryListFragment.java
+END
+IjoomerIntafyEventAddSecondStepsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyEventAddSecondStepsActivity.java
+END
+IjoomerIntafyNetworkListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyNetworkListActivity.java
+END
+IjoomerIntafyProfileFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyProfileFragment.java
+END
+IjoomerIntafyArticleDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyArticleDetailsActivity.java
+END
+IjoomerIntafyArticleAddActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyArticleAddActivity.java
+END
+IjoomerIntafySocialTwitterFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafySocialTwitterFragment.java
+END
+IjoomerIntafyCircleMemberListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyCircleMemberListFragment.java
+END
+IjoomerIntafyMessageListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyMessageListActivity.java
+END
+IjoomerIntafyInviteUserForCircleListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyInviteUserForCircleListFragment.java
+END
+IjoomerIntafyProfileOtherFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyProfileOtherFragment.java
+END
+IjoomerIntafyArticleDateListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyArticleDateListFragment.java
+END
+IjoomerIntafySelectUserForMessageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafySelectUserForMessageActivity.java
+END
+IjoomerIntafyImageViewActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyImageViewActivity.java
+END
+IjoomerIntafyInviteUserForEventListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyInviteUserForEventListFragment.java
+END
+IjoomerIntafyEditProfileActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyEditProfileActivity.java
+END
+IjoomerIntafyInviteCircleTitleListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyInviteCircleTitleListFragment.java
+END
+IjoomerIntafyArticleTitleListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyArticleTitleListFragment.java
+END
+IjoomerIntafyEventAddFirstStepsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyEventAddFirstStepsActivity.java
+END
+IjoomerIntafyNetwoekListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyNetwoekListFragment.java
+END
+IjoomerIntafyEventListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyEventListActivity.java
+END
+IjoomerIntafyMessageDetailListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyMessageDetailListFragment.java
+END
+IjoomerIntafyCircleMessageListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyCircleMessageListFragment.java
+END
+IjoomerIntafyMessageAddActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyMessageAddActivity.java
+END
+IjoomerIntafyInviteCircleActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyInviteCircleActivity.java
+END
+IjoomerIntafySocialAllFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafySocialAllFragment.java
+END
+IjoomerIntafyCircleAddActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyCircleAddActivity.java
+END
+IjoomerIntafySocialFacebookFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafySocialFacebookFragment.java
+END
+IjoomerIntafyDirectoryListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyDirectoryListActivity.java
+END
+IjoomerIntafyCircleListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyCircleListActivity.java
+END
+IjoomerIntafyProfileActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyProfileActivity.java
+END
+IjoomerIntafySocialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafySocialActivity.java
+END
+IjoomerIntafyCircleTitleListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyCircleTitleListFragment.java
+END
+IjoomerIntafyMessageListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyMessageListFragment.java
+END
+IjoomerIntafyInviteUserForCircleActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyInviteUserForCircleActivity.java
+END
+IjoomerIntafyCircleMemberListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyCircleMemberListActivity.java
+END
+IjoomerIntafyEventDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyEventDetailsActivity.java
+END
+IntafyCachingConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IntafyCachingConstants.java
+END
+IjoomerIntafyProfileOtherActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyProfileOtherActivity.java
+END
+IjoomerIntafyInviteCircleDateListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyInviteCircleDateListFragment.java
+END
+IjoomerIntafyInviteUserForEventActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafyInviteUserForEventActivity.java
+END
+IjoomerIntafySelectUserForMessageListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/components/intafy/IjoomerIntafySelectUserForMessageListFragment.java
+END

@@ -1,0 +1,13 @@
+@font-face { 
+font-family: 'ijoomer'; 
+src: url('file:///android_asset/fonts/american_typewriter_medium_bt.ttf'); /* but this does */
+}
+
+body {
+font-family: 'ijoomer';
+background-color:rgb(252,252,235);
+}
+h3 {
+color:rgb(204,0,0);
+}
+

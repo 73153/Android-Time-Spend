@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/lnrBookingDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="visible" >
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            android:id="@+id/txtBookTitle"
+                            style="?textview_h4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/yellow"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:text="@string/booking_details"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical" >
+
+                            <com.ijoomer.customviews.IjoomerEditText
+                                android:id="@+id/edtJourneyDateTime"
+                                style="?edittext_h2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:focusable="false"
+                                android:hint="@string/journey_date_and_time"
+                                android:padding="3dp" />
+
+                            <com.ijoomer.customviews.IjoomerEditText
+                                android:id="@+id/edtFlightNo"
+                                style="?edittext_h2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:hint="@string/flight_no"
+                                android:padding="3dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnrContactDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical" >
+
+                            <com.ijoomer.customviews.IjoomerTextView
+                                android:id="@+id/txtContactDetails"
+                                style="?textview_h4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                               android:background="@color/yellow"
+                                android:gravity="center"
+                                android:padding="3dp"
+                                android:text="@string/contact_details"
+                                android:textStyle="bold" />
+
+                            <com.ijoomer.customviews.IjoomerEditText
+                                android:id="@+id/edtFirstName"
+                                style="?edittext_h2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:hint="@string/first_name"
+                                android:padding="3dp" />
+
+                            <com.ijoomer.customviews.IjoomerEditText
+                                android:id="@+id/edtLastName"
+                                style="?edittext_h2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:hint="@string/last_name"
+                                android:padding="3dp" />
+
+                            <com.ijoomer.customviews.IjoomerEditText
+                                android:id="@+id/edtAddress"
+                                style="?edittext_h2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="top|left"
+                                android:hint="@string/address"
+                                android:lines="3"
+                                android:padding="3dp" />
+
+                            <com.ijoomer.customviews.IjoomerEditText
+                                android:id="@+id/edtContactNo"
+                                style="?edittext_h2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:hint="@string/contact_no"
+                                android:inputType="phone"
+                                android:padding="3dp" />
+
+                            <com.ijoomer.customviews.IjoomerEditText
+                                android:id="@+id/edtEmail"
+                                style="?edittext_h2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:hint="@string/email_id"
+                                android:inputType="textEmailAddress"
+                                android:padding="3dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnrBookingTerms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical" >
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            android:id="@+id/txtTermsAcceptanceTitle"
+                            style="?textview_h4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                           android:background="@color/yellow"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:text="@string/booking_terms"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp" >
+
+                                <com.ijoomer.customviews.IjoomerCheckBox
+                                    android:id="@+id/icbTermsAcceptance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:button="@drawable/checkbox_selector" />
+
+                                <com.ijoomer.customviews.IjoomerTextView
+                                    android:id="@+id/txtTermsAcceptance"
+                                    style="?textview_white_h2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:paddingLeft="3dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <com.ijoomer.customviews.IjoomerButton
+            android:id="@+id/btnBookNow"
+            style="?next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/book_now" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pbrBookNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

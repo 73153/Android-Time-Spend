@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/yellow"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/book_home_box"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtDistanceInMiles"
+                    style="?textview_h4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/distance_miles"
+                    android:textStyle="bold" />
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtDistanceInMilesValue"
+                    style="?textview_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/book_home_box"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtDistanceCost"
+                    style="?textview_h4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/distance_cost"
+                    android:textStyle="bold" />
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtDistanceCostValue"
+                    style="?textview_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/book_home_box"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtCarCost"
+                    style="?textview_h4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/car_cost"
+                    android:textStyle="bold" />
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtCarCostValue"
+                    style="?textview_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/book_home_box"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtSurchargeCost"
+                    style="?textview_h4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/surcharge_cost"
+                    android:textStyle="bold" />
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtSurchargeCostValue"
+                    style="?textview_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/book_home_box"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtTotalCost"
+                    style="?textview_h4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/total_calculated_cost"
+                    android:textStyle="bold" />
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtTotalCostValue"
+                    style="?textview_h4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <com.ijoomer.customviews.IjoomerButton
+                android:id="@+id/btnReset"
+                style="?button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:text="@string/reset" />
+
+            <com.ijoomer.customviews.IjoomerButton
+                android:id="@+id/btnBookNow"
+                style="?button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:text="@string/book_now" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

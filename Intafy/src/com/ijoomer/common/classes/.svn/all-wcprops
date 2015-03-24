@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes
+END
+CoreCachingConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/CoreCachingConstants.java
+END
+IjoomerCometChat.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerCometChat.java
+END
+VideoTrimmerUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/VideoTrimmerUtilities.java
+END
+URLDrawable.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/URLDrawable.java
+END
+IjoomerWebviewClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerWebviewClient.java
+END
+URLImageParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/URLImageParser.java
+END
+IjoomerSpannable.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerSpannable.java
+END
+IjoomerUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerUser.java
+END
+IjoomerSuperMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerSuperMaster.java
+END
+ScalingUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/ScalingUtilities.java
+END
+IjoomerSplashMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerSplashMaster.java
+END
+IjoomerMapClusterIconProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerMapClusterIconProvider.java
+END
+IjoomerIntafyMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerIntafyMaster.java
+END
+IjoomerPhotoGalaryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerPhotoGalaryActivity.java
+END
+IjoomerMapPloyline.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerMapPloyline.java
+END
+IjoomerMenus.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerMenus.java
+END
+IjoomerHomeMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerHomeMaster.java
+END
+IjoomerMenuMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerMenuMaster.java
+END
+IjoomerResponseValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerResponseValidator.java
+END
+IjoomerPagingProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerPagingProvider.java
+END
+IjoomerFileChooserActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerFileChooserActivity.java
+END
+IjoomerRegistrationMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerRegistrationMaster.java
+END
+IjoomerMenuDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerMenuDataProvider.java
+END
+IjoomerRequestDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerRequestDataProvider.java
+END
+ViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/ViewHolder.java
+END
+IjoomerCometChatMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerCometChatMaster.java
+END
+IjoomerUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerUtilities.java
+END
+IjoomerScreenHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerScreenHolder.java
+END
+IjoomerAdManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerAdManager.java
+END
+IjoomerMapAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/23830/Client/Android/IJoomerAdvance/Intafy/src/com/ijoomer/common/classes/IjoomerMapAddress.java
+END

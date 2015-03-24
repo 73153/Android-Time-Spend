@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ijoomer.intafy.src"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <com.ijoomer.customviews.RoundedImageView
+        android:id="@+id/imgNetworkIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:corner_radius="360dp"
+        app:is_oval="false"
+        app:border_color="@color/blue"
+        android:scaleType="fitXY"/>
+
+
+</LinearLayout>

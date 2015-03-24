@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ijoomer.intafy.src"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    style="?background">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.ijoomer.customviews.RoundedImageView
+        android:id="@+id/imgCircleAvatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:corner_radius="360dp"
+        android:layout_centerInParent="true"
+        app:is_oval="false"
+        app:border_color="@color/blue"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"/>
+
+    <ProgressBar
+        android:id="@+id/pbrImageLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/imgAddImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/plus_icon_en"
+        android:layout_marginLeft="-10dp"
+        android:layout_below="@id/imgCircleAvatar"
+        android:layout_toRightOf="@id/imgCircleAvatar"/>
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtCircleTitle"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            android:padding="10dp"
+            android:scrollHorizontally="true"
+            android:scrollbars="none"
+            android:singleLine="true"
+            android:hint="@string/intafy_circle_name"/>
+
+        <com.ijoomer.customviews.IjoomerTextView
+            style="?textview_white_h2"
+            android:id="@+id/txtSelectUser"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:scrollbars="horizontal"
+            android:text="@string/intafy_select_users"
+            android:background="@drawable/ijoomer_spinner"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgCreate"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/add_icon_en"/>
+
+</LinearLayout>

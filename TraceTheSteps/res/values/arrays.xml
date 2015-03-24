@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wall_post_type">
+        <item>Public</item>
+        <item>Site Members</item>
+        <item>Friends</item>
+        <item>Only me</item>
+    </string-array>
+    <string-array name="report_type">
+        <item>Spamming / Advertisement</item>
+        <item>Profanity / Inappropriate content</item>
+        <item>Abusive</item>
+    </string-array>
+    <string-array name="sobipro_pageLayout">
+        <item>Business</item>
+        <item>Cars</item>
+        <item>Restaurant</item>
+    </string-array>
+</resources>

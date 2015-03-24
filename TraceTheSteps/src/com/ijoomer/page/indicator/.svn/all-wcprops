@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/page/indicator
+END
+PageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/page/indicator/PageIndicator.java
+END
+CirclePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/page/indicator/CirclePageIndicator.java
+END
+LinePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/page/indicator/LinePageIndicator.java
+END
+TabPageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/page/indicator/TabPageIndicator.java
+END
+IcsLinearLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/page/indicator/IcsLinearLayout.java
+END
+TitlePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/page/indicator/TitlePageIndicator.java
+END
+IconPageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/page/indicator/IconPageIndicator.java
+END
+IconPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/page/indicator/IconPagerAdapter.java
+END
+UnderlinePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/page/indicator/UnderlinePageIndicator.java
+END

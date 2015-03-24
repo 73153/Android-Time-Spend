@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/medium_margin">
+
+
+    <com.ijoomer.tips.customviews.CustomBoldTextView
+        android:id="@+id/txtFaqQuestionLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/large_text_size"/>
+
+    <com.ijoomer.tips.customviews.CustomTextView
+        android:id="@+id/txtFaqQuestionValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/medium_text_size"
+        android:textColor="@color/grey"/>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/21890/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms
+END
+IcmsCachingConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsCachingConstants.java
+END
+IcmsCategoryBlogFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsCategoryBlogFragment.java
+END
+IcmsAllCategoryFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsAllCategoryFragment.java
+END
+IcmsCategoryBlogActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsCategoryBlogActivity.java
+END
+IcmsArchivedArticlesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsArchivedArticlesFragment.java
+END
+IcmsAllCategoryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsAllCategoryActivity.java
+END
+IcmsArchivedArticlesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsArchivedArticlesActivity.java
+END
+IcmsCategoryFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsCategoryFragment.java
+END
+IcmsCategoryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsCategoryActivity.java
+END
+IcmsTagHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsTagHolder.java
+END
+IcmsFeaturedArticlesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsFeaturedArticlesFragment.java
+END
+IcmsFeaturedArticlesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsFeaturedArticlesActivity.java
+END
+IcmsArticleDetailFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsArticleDetailFragment.java
+END
+IcmsArticleDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsArticleDetailActivity.java
+END
+IcmsFavouriteArticlesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsFavouriteArticlesFragment.java
+END
+IcmsActivityFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsActivityFinder.java
+END
+IcmsFavouriteArticlesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsFavouriteArticlesActivity.java
+END
+IcmsMasterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/21890/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/ijoomer/components/icms/IcmsMasterActivity.java
+END

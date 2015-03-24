@@ -1,0 +1,635 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout
+END
+ijoomer_message_emojis_grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_message_emojis_grid_item.xml
+END
+ijoomer_intafy_event_list_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_event_list_fragment.xml
+END
+ijoomer_intafy_article_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_article_list.xml
+END
+ijoomer_menu_grid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_menu_grid.xml
+END
+ijoomer_home_grid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_home_grid.xml
+END
+ijoomer_intafy_event_add_second_step.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_event_add_second_step.xml
+END
+ijoomer_map_ployline.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_map_ployline.xml
+END
+ijoomer_intafy_map_bubble.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_map_bubble.xml
+END
+ijoomer_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_menu.xml
+END
+ijoomer_voice_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_voice_button.xml
+END
+ijoomer_home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_home.xml
+END
+ijoomer_intafy_article_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_article_details.xml
+END
+ijoomer_intafy_profile_other_details_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_profile_other_details_fragment.xml
+END
+ijoomer_intafy_message_thread_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_message_thread_list.xml
+END
+ijoomer_intafy_circle_message_detail_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_circle_message_detail_header.xml
+END
+ijoomer_intafy_other_profile_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_other_profile_details.xml
+END
+ijoomer_intafy_directory_list_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_directory_list_fragment.xml
+END
+ijoomer_intafy_network_list_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_network_list_fragment.xml
+END
+ijoomer_splash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_splash.xml
+END
+ijoomer_intafy_message_detail_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_message_detail_header.xml
+END
+ijoomer_onload_ad_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_onload_ad_dialog.xml
+END
+ijoomer_menu_grid_menuitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_menu_grid_menuitem.xml
+END
+ijoomer_home_grid_menuitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_home_grid_menuitem.xml
+END
+ijoomer_intafy_message_detail_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_message_detail_list_item.xml
+END
+ijoomer_intafy_block_user_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_block_user_dialog.xml
+END
+ijoomer_menu_list_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_menu_list_fragment.xml
+END
+ijoomer_intafy_invite_event.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_invite_event.xml
+END
+ijoomer_home_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_home_menu.xml
+END
+ijoomer_intafy_circle_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_circle_list_item.xml
+END
+ijoomer_intafy_network_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_network_add.xml
+END
+ijoomer_file_chooser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_file_chooser.xml
+END
+ijoomer_spinner_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_spinner_item.xml
+END
+ijoomer_photo_gallery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_photo_gallery.xml
+END
+ijoomer_voice_text_messager_without_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_voice_text_messager_without_popup.xml
+END
+ijoomer_intafy_social.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_social.xml
+END
+ijoomer_intafy_lockapp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_lockapp.xml
+END
+ijoomer_tab_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_tab_item.xml
+END
+ijoomer_intafy_profile_other_call_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_profile_other_call_popup.xml
+END
+ijoomer_map_address_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_map_address_item.xml
+END
+ijoomer_intafy_event_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_event_details.xml
+END
+ijoomer_voice_text_messager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_voice_text_messager.xml
+END
+ijoomer_intafy_profile_details_form.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_profile_details_form.xml
+END
+ijoomer_intafy_settings_language_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_settings_language_popup.xml
+END
+ijoomer_intafy_avatar_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_avatar_show.xml
+END
+ijoomer_ratingbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_ratingbar.xml
+END
+ijoomer_ok_cancel_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_ok_cancel_dialog.xml
+END
+facebook_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/facebook_main.xml
+END
+ijoomer_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_header.xml
+END
+ijoomer_intafy_social_list_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_social_list_fragment.xml
+END
+ijoomer_list_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_list_footer.xml
+END
+ijoomer_intafy_profile_details_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_profile_details_fragment.xml
+END
+ijoomer_intafy_profile_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_profile_details.xml
+END
+ijoomer_intafy_circle_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_circle_list.xml
+END
+ijoomer_intafy_social_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_social_footer.xml
+END
+ijoomer_intafy_event_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_event_list_item.xml
+END
+ijoomer_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_footer.xml
+END
+ijoomer_loading_dialog2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_loading_dialog2.xml
+END
+ijoomer_intafy_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_header.xml
+END
+ijoomer_intafy_network_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_network_list.xml
+END
+ijoomer_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_list.xml
+END
+ijoomer_intafy_articel_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_articel_list_item.xml
+END
+ijoomer_menu_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_menu_header.xml
+END
+ijoomer_home_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_home_header.xml
+END
+ijoomer_map_address_auto_complete_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_map_address_auto_complete_list_item.xml
+END
+ijoomer_video_player.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_video_player.xml
+END
+ijoomer_intafy_bottom_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_bottom_popup.xml
+END
+ijoomer_more_menu_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_more_menu_listitem.xml
+END
+ijoomer_confirm_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_confirm_dialog.xml
+END
+ijoomer_intafy_directory_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_directory_list_item.xml
+END
+ijoomer_intafy_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_footer.xml
+END
+ijoomer_intafy_network_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_network_list_item.xml
+END
+ijoomer_intafy_remove_circle_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_remove_circle_dialog.xml
+END
+ijoomer_custom_webview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_custom_webview.xml
+END
+ijoomer_loading_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_loading_dialog.xml
+END
+ijoomer_intafy_event_add_first_step.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_event_add_first_step.xml
+END
+ijoomer_intafy_article_list_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_article_list_fragment.xml
+END
+ijoomer_intafy_circle_list_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_circle_list_fragment.xml
+END
+ijoomer_intafy_event_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_event_list.xml
+END
+ijoomer_intafy_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_settings.xml
+END
+ijoomer_push_luncher.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_push_luncher.xml
+END
+ijoomer_intafy_profile_change_photo_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_profile_change_photo_popup.xml
+END
+ijoomer_intafy_settings_lockapp_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_settings_lockapp_popup.xml
+END
+ijoomer_mapview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_mapview.xml
+END
+ijoomer_sidemenu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_sidemenu.xml
+END
+ijoomer_intafy_circle_message_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_circle_message_list_item.xml
+END
+ijoomer_intafy_profile_dynamic_view_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_profile_dynamic_view_item.xml
+END
+ijoomer_intafy_article_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_article_add.xml
+END
+ijoomer_intafy_directory_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_directory_list.xml
+END
+ijoomer_ok_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_ok_dialog.xml
+END
+ijoomer_intafy_circle_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_circle_add.xml
+END
+ijoomer_intafy_message_details_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_message_details_list.xml
+END
+ijoomer_intafy_map.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_map.xml
+END
+ijoomer_more_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_more_popup.xml
+END
+ijoomer_intafy_message_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_message_list_item.xml
+END
+ijoomer_select_image_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_select_image_dialog.xml
+END
+cropimage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/cropimage.xml
+END
+ijoomer_menu_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_menu_listitem.xml
+END
+ijoomer_map_address.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_map_address.xml
+END
+ijoomer_filechooser_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_filechooser_list_item.xml
+END
+ijoomer_intafy_home_network_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_home_network_item.xml
+END
+ijoomer_custom_spinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_custom_spinner.xml
+END
+ijoomer_photo_gallery_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_photo_gallery_item.xml
+END
+ijoomer_sidemenu_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/23015/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_sidemenu_listitem.xml
+END
+ijoomer_intafy_message_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/24237/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_message_add.xml
+END
+ijoomer_intafy_social_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/23829/Client/Android/IJoomerAdvance/Intafy/res/layout/ijoomer_intafy_social_list_item.xml
+END

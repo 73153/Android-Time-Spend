@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnrMyBookingItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginTop="5dp"
+    android:padding="3dp"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtPickUpToDropOff"
+            style="?textview_white_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtJourneyDateAndTime"
+            style="?textview_white_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/book_home_right_arrow" />
+
+</LinearLayout>

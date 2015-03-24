@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@color/white"
+   android:orientation="vertical" >
+
+    <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:gravity="center"
+       android:padding="5dp" >
+
+        <com.ijoomer.customviews.IjoomerTextView
+           android:id="@+id/txtResultFound"
+            style="?textview_orange_h3"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:padding="5dp" />
+
+        <com.ijoomer.customviews.IjoomerButton
+           android:id="@+id/btnMapIndication"
+           android:layout_width="40dp"
+           android:layout_height="30dp"
+           android:layout_marginLeft="3dp"
+           android:background="@drawable/iproperty_direction_selector"
+           android:visibility="gone" />
+    </LinearLayout>
+
+    <fragment
+       android:id="@+id/maps"
+       android:name="pl.mg6.android.maps.extensions.SupportMapFragment"
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1" />
+
+    <LinearLayout
+       android:id="@+id/lnrDetail"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:padding="5dp"
+       android:paddingBottom="5dp"
+       android:paddingTop="5dp"
+       android:visibility="gone" >
+
+        <ImageView
+           android:id="@+id/imgSearchCategoryImage"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:adjustViewBounds="true"
+           android:scaleType="fitXY"
+           android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+           android:id="@+id/lnrProperty"
+           android:layout_width="0dp"
+           android:layout_height="fill_parent"
+           android:layout_marginLeft="3dp"
+           android:layout_weight="1"
+           android:gravity="center_vertical"
+           android:orientation="vertical" >
+
+            <com.ijoomer.customviews.IjoomerTextView
+               android:id="@+id/txtSearchCategoryAddress"
+                style="?textview_h3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+            <com.ijoomer.customviews.IjoomerTextView
+               android:id="@+id/txtSearchCategoryTitle"
+                style="?textview_green_h2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eosos.customviews.IjoomerCircleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/ijoomer_background"
+    android:layout_height="320dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgFr"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/circle"/>
+        <com.eosos.customviews.IjoomerTextView
+            android:id="@+id/txtFr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fr"
+            android:layout_centerInParent="true"
+            android:textColor="@color/darkgray" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgSa"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/circle"/>
+        <com.eosos.customviews.IjoomerTextView
+            android:id="@+id/txtSa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sa"
+            android:layout_centerInParent="true"
+            android:textColor="@color/darkgray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgSu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/circle"/>
+        <com.eosos.customviews.IjoomerTextView
+            android:id="@+id/txtSu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Su"
+            android:layout_centerInParent="true"
+            android:textColor="@color/darkgray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgM"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/circle"/>
+        <com.eosos.customviews.IjoomerTextView
+            android:id="@+id/txtM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="M"
+            android:layout_centerInParent="true"
+            android:textColor="@color/darkgray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgTu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/circle"/>
+        <com.eosos.customviews.IjoomerTextView
+            android:id="@+id/txtTu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tu"
+            android:layout_centerInParent="true"
+            android:textColor="@color/darkgray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgWe"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/circle"/>
+        <com.eosos.customviews.IjoomerTextView
+            android:id="@+id/txtWe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="We"
+            android:layout_centerInParent="true"
+            android:textColor="@color/darkgray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgTh"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/circle"/>
+        <com.eosos.customviews.IjoomerTextView
+            android:id="@+id/txtTh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Th"
+            android:layout_centerInParent="true"
+            android:textColor="@color/darkgray" />
+    </RelativeLayout>
+</com.eosos.customviews.IjoomerCircleLayout>

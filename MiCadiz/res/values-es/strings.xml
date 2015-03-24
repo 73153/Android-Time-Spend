@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Server Error Code -->
+    <string name="code108"> malos datos en respuesta del servidor. </string>
+    <string name="code599">problema con la conexión por favor, inténtalo de nuevo </string>
+    <string name="code204"> no se ha encontrado ningún resultado para su búsqueda. </string>
+    <string name="code400"> datos erróneos. </string>
+    <string name="code401"> Nombre de usuario o contraseña no válidos. </string>
+    <string name="code404"> ninguna solicitud encontrados. </string>
+    <string name="code415"> tipo de archivo no compatible. </string>
+    <string name="code416"> Subir superado el límite. </string>
+    <string name="code500">Error del servidor.</string>
+    <string name="code501">Error del servidor.</string>
+    <string name="code701"> nombre de usuario ya existe. </string>
+    <string name="code702"> mail ya existe. </string>
+    <string name="code703"> Facebook Usuario no encontrado. </string>
+    <string name="code704"> sesión ha finalizado. </string>
+    <string name="code705"> Permiso denegado. </string>
+    <string name="code706">Acceso restringido.</string>
+    <string name="code707">Solicite ya existe.</string>
+    <string name="code708">En espera de la aprobación.</string>
+    <string name="sdk_error">Opps! Actualiza tu IjoomerAdvance SDK.</string>
+    <string name="app_name">MiCádiz</string>
+    <!-- General String -->
+    <string name="app_crash">Crashed Aplicación !!!</string>
+    <string name="app_crash_please_send">Por favor, Enviar </string>
+    <string name="app_crash_from_sdcard">De (SDCARD o la memoria interna) Directorio raíz Para un desarrollador del equipo.</string>
+    <string name="change_language">Cambiar Idioma</string>
+    <string name="gps_turn_on">Turn On GPS</string>
+    <string name="gps_turn_on_msg"> GPS esté deshabilitado, por favor vuelva a encenderlo. </string>
+    <string name="apply"> Aplicar </string>
+    <string name="mail_hint"> android.ijoomer @ gmail.com </string>
+    <string name="back"> Back </string>
+    <string name="retry"> Reintentar </string>
+    <string name="ok"> Ok </string>
+    <string name="yes"> Sí </string>
+    <string name="of"> de </string>
+    <string name="no"> No </string>
+    <string name="create"> Crea </string>
+    <string name="cancel"> Cancelar </string>
+    <string name="cancel_all"> Cancelar All </string>
+    <string name="upload_all"> Cargar All </string>
+    <string name="caption"> Leyenda </string>
+    <string name="see_more">  Ver más </string>
+    <string name="browse"> Browse </string>
+    <string name="close"> Cerrar </string>
+    <string name="capture">\u0020\u0020\u0020 capturar</string>
+    <string name="change">cambiar</string>
+    <string name="gallery">\u0020\u0020\u0020 Galería Teléfono</string>
+    <string name="continues">  Continuar </string>
+    <string name="save"> Guardar </string>
+    <string name="send"> Enviar </string>
+    <string name="push_to_talk"> Hold y hablar </string>
+    <string name="done"> Done </string>
+    <string name="download"> Descargar </string>
+    <string name="pending"> espera </string>
+    <string name="upload"> Upload </string>
+    <string name="category"> Categoría </string>
+    <string name="next"> Siguiente </string>
+    <string name="setting"> Configuración </string>
+    <string name="logout">Salir</string>
+    <string name="logout_message">¿Está seguro de que desea salir?</string>
+    <string name="loging_out">Cierre de sesión</string>
+    <string name="edit"> Editar </string>
+    <string name="add_photo"> Añadir foto </string>
+    <string name="edit_photo"> Editar foto </string>
+    <string name="remove"> Quitar </string>
+    <string name="invite"> Invitar </string>
+    <string name="report"> Informe </string>
+    <string name="ignor"> Ignorar </string>
+    <string name="what_is_on_your_mind"> What\'s en su mente? …</string>
+    <string name="say_about_photo">Diga algo de esta foto …</string>
+    <string name="are_you_sure">¿Está seguro que desea eliminar este ?</string>
+    <string name="are_you_sure_set_profile_cover">¿Quieres configurar esto como foto de portada ?</string>
+    <string name="view_all"> Ver todos </string>
+    <string name="twitter_authorisation"> Twitter Autorización … </string>
+    <string name="twitter_sending_twitt">  Envío Tweet … </string>
+    <string name="synchronization">Sincronización</string>
+    <string name="synchronization_with_server_started">Sincronización con el servidor se inició.</string>
+    <string name="synchronization_with_server_complete">Sincronización con servidor completo.</string>
+    <string name="are_you_sure_synchronization">¿ Estas seguro desea sincronizar con el servidor ? Este puede tardar unos minutos.</string>
+    <string name="more">más</string>
+    <string name="home">Inicio</string>
+    <string name="lat_long_not_found">Latitud-Longitud Not Found</string>
+    <string name="address_from_map">ubicación</string>
+    <string name="tap_on_map_get_address">Pulse en el mapa para entrar ubicación</string>
+    <string name="minimum_zoom_level_requires_map_address">No alcanza el nivel de zoom mínimo. Favor acerca el zoom y vuelva a intentarlo. </string>
+    <string name="registration"> registro </string>
+    <string name="splash"> Splash </string>
+    <string name="approval"> Aprobación </string>
+    <string name="onsite"> in situ </string>
+    <string name="push"> push </string>
+    <string name="share_email_subject">MyCadiz Email : \/%s</string>
+    <string name="share_email_no_client">Lo sentimos, no hay clientes de correo están instaladas en su dispositivo.</string>
+    <string name="sayabout_story">¿Qué es este post acerca de …?</string>
+    <string name="saw_this_story_on_the">vi esta historia en el</string>
+    <string name="android_app">Android App</string>
+    <string name="thought_you_should_see_it">y pensé que debería verlo.</string>
+    <string name="try_ijoomeradvance">** Trate iJoomer Avance Ahora :: Su libre ** Más información se puede encontrar en</string>
+    <string name="site_url">http://www.ijoomer.com</string>
+    <string name="terms_n_condition_first">	He leído y estoy de acuerdo con el </string>
+    <string name="terms_n_condition_second">Términos y Condiciones.</string>
+    <string name="accept_terms_and_condition">Plesae aceptar los Términos y Condiciones</string>
+    <string name="authenticating_user">Autenticación de usuario…</string>
+    <string name="select_all"> Seleccionar todo </string>
+    <string name="none"> Ninguno </string>
+    <string name="share"> Share </string>
+    <string name="size"> Tamaño </string>
+    <string name="play"> Juego </string>
+    <string name="play_all"> Play All </string>
+    <string name="stop"> Detener </string>
+    <string name="max_audio_length">Max Audio Duración alcanzado.</string>
+    <string name="no_space">No queda espacio en el dispositivo.</string>
+    <string name="message">mensaje</string>
+    <string name="sync_with_server">Un momento por favor Cargando</string>
+    <string name="signin"> Ingresa </string>
+    <string name="signout"> Salir </string>
+    <string name="share_googleplus"> Compartir en Google+ </string>
+    <string name="login_as"> Entrar como </string>
+    <string name="signin_with_google_account"> favor, conéctese con la cuenta de Google </string>
+    <string name="share_googleplus_successfully"> Compartir en Google+ éxito … </string>
+
+    <string-array name="wall_post_type">
+            <item>público</item>
+            <item>miembros del sitio</item>
+            <item>Friends</item>
+            <item>Sólo me</item>
+    </string-array>
+    <string-array name="report_type">
+            <item>spam / Publicidad</item>
+            <item>Blasfemia / contenidos inapropiados</item>
+            <item>abusivo</item>
+    </string-array>
+    <!-- Registration dynamic page caption -->
+    <string name="state"> estado </string>
+    <string name="city_town"> Ciudad / Pueblo</string>
+    <string name="phone"> teléfono </string>
+    <string  name="year">Año </string>
+    <string name="email"> Email </string>
+    <string name="website"> web </string>
+    <string name="country"> país </string>
+    <string name="registration_successfully">Registro de éxito. Enlace de activación enviada a su correo electrónico …</string>
+
+    <!-- Forget Password -->
+    <string name="step1">Paso:1</string>
+    <string name="step2">Paso:2</string>
+    <string name="step3">Paso:3</string>
+    <string name="reset_password">Para restablecer su contraseña, por favor, primero identificar su cuenta.</string>
+    <string name="token_mail">Token de su correo</string>
+
+    <!-- Custom Dialog String -->
+    <string name="dialog_contact"> Contacto </string>
+    <string name="dialog_contact_not_found"> ​​No encontrada </string>
+    <string name="dialog_loading_profile"> perfil </string>
+    <string name="dialog_loading_facebook_login"> Facebook login </string>
+    <string name="dialog_title_urlsetting"> Ijoomer Dominio Url ajuste </string>
+    <string name="dialog_domain_urlsetting"> nombres de dominio </string>
+    <string name="dialog_title_forget_username"> Olvide Nombre de usuario </string>
+    <string name="dialog_title_share"> Share </string>
+    <string name="dialog_title_contact"> Contacto </string>
+    <string name="dialog_title_select_address"> dirección </string>
+    <string name="dialog_title_select_image"> Seleccionar Imagen </string>
+    <string name="dialog_loading_connect_facebook"> Connect with Facebook … </string>
+    <string name="dialog_loading_verifying_emailid"> Verificación Email ID de usuario … </string>
+    <string name="dialog_loading_verifying_token"> Verificación UserName y Token … </string>
+    <string name="dialog_loading_resetiing_password"> Restablecimiento de la contraseña … </string>
+    <string name="dialog_loading_register_newuser"> usuario Registro … </string>
+    <string name="dialog_loading_register_user_profile_type"> Conseguir Tipo de perfil … </string>
+    <string name="dialog_loading_privacy_setting"> Configuración de la privacidad … </string>
+    <string name="dialog_loading_please_wait"> Esspere por favor … </string>
+    <string name="dialog_loading_sending_request">  Enviando solicitud … </string>
+    <string name="dialog_share_write_message_hint"> Escribir mensaje aquí … </string>
+    <string name="dialog_title_report"> Reportar este </string>
+    <string name="report_message_hint"> mensaje Informe </string>
+    <string name="report_successfully"> reportado éxito … </string>
+    <!-- Alert/validation message String -->
+    <string name="validation_value_required"> Valor Requerido </string>
+    <string name="validation_invalid_email"> inválido Email </string>
+    <string name="validation_invalid_birth_date"> válido Fecha de Nacimiento </string>
+    <string name="validation_passwod_not_match"> Contraseña ¿No Partidos </string>
+    <string name="alert_loading"> Cargando … </string>
+    <string name="alert_loading_data"> Cargando Datos… </string>
+    <string name="alert_loading_media">Cargando Medios De Comunicación…</string>
+    <string name="alert_check_email"> nombre de usuario enviado a su correo electrónico-Id. </string>
+    <string name="alert_title_forget_password">\u0020\u0020 contraseña olvidada</string>
+    <string name="alert_message_forget_password"> Contraseña reajusta correctamente . </string>
+    <string name="alert_title_registration"> \u0020 \u0020 registro . </string>
+    <string name="alert_title_low_memory"> \u0020 \u0020 memoria baja </string>
+    <string name="alert_message_low_memory"> Por favor, cierre otras aplicaciones que se ejecutan en segundo plano . </string>
+    <string name="alert_title_login"> \u0020 \u0020 sesión </string>
+    <string name="alert_title_fblogin"> \u0020 \u0020 ¡Ingresa usando Facebook </string>
+    <string name="alert_title_twitter"> \u0020 \u0020 Twitter </string>
+    <string name="alert_message_twitter_error"> ¡Vaya ! Ya Twitter que … </string>
+    <string name="alert_message_twitter_success"> su tweet se ha publicado … </string>
+    <string name="alert_message_frined_request_accept"> solicitud de amistad Aceptado </string>
+    <string name="alert_title_friend_list"> \u0020 \u0020 Friend List </string>
+    <string name="alert_facebook_login_not_work"> Parece que hay un problema en la carga de su usuario de Facebook , por favor intente de nuevo más tarde </string>
+    <string name="alert_twitter_duplicate_sharing">¡Vaya! Ya Twitter que … </string>
+    <string name="alert_message_file_downloaded"> El archivo se descargó correctamente. </string>
+    <string name="alert_message_file_uploaded"> Archivo subido con éxito.</string>
+    <!-- Login Screen -->
+    <string name="username"> Nombre de usuario </string>
+    <string name="password"> Contraseña </string>
+    <string name="login"> sesión </string>
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="create_account">&lt;u>Crear una cuenta&lt;/u></string>
+    <string name="forget_password">&lt;u>¿Olvidó su contraseña?&lt;/u></string>
+    <string name="forget_username">&lt;u>Olvidó nombre de usuario?&lt;/u></string>
+    <string name="facebook_connect"> Conectar con Facebook </string>
+    <string name="resetpassword_step1"> identificar su cuenta </string>
+    <string name="resetpassword_token"> Token </string>
+    <string name="resetpassword_retype"> Confirmar contraseña </string>
+    <string name="resetpassword_finish"> Finalizar </string>
+    <string name="resetpassword_step3"> restablecer tu contraseña </string>
+    <!-- Facebook SignUp -->
+    <string name="facebook_user_data_fetching"> Obtención de los datos de usuario de Facebook </string>
+    <string name="facebook_wall_posting"> envío de datos … </string>
+    <string name="facebook_welcome"> Hola, &lt;b> \/%s &lt;/b> En este momento está conectando a la página con Facebook Connect. </string>
+    <string name="facebook_signup_details_info"> ya que esta es la primera vez que inicia una sesión a este sitio, usted está obligado a llenar algunos de los detalles antes de que podamos proceder con su creación de la cuenta. </string>
+    <string name="facebook_signup_details_existing_info"> Si usted ya tiene una cuenta en este sitio, todo lo que usted necesita hacer es proporcionar a sus Credenciales Existentes y conectaremos su usuario de Facebook Identificación con su cuenta existente. </string>
+    <string name="facebook_signup_alert"> * Si va a vincular su cuenta, sus datos de Facebook se importará y se sobrescribe a su perfil existente incluida tu contraseña. </string>
+    <string name="facebook_currently"> Actualmente estoy … </string>
+    <string name="facebook_new_user"> un nuevo usuario </string>
+    <string name="facebook_existing_user"> miembro de este sitio </string>
+    <string name="facebook_new_member"> nuevo miembro del sitio </string>
+    <string name="facebook_existing_member"> miembro existente de sitio </string>
+    <string name="facebook_share_success"> Facebook Compartir con éxito </string>
+    <string name="facebook_share_error"> Facebook compartir error. </string>
+    <string name="facebook_share_title"> Facebook compartir </string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="sms">SMS</string>
+    <!-- Registration -->
+    <string name="name"> Nombre </string>
+    <string name="header_registration"> registro </string>
+
+    <!-- Pull To Refresh -->
+    <string name="pull_to_refresh_pull_label"> Tirar para refrescar … </string>
+    <string name="pull_to_refresh_release_label"> lanzamiento para actualizar … </string>
+    <string name="pull_to_refresh_loading"> Cargando … </string>
+    <string name="steps_of"> Paso de% 1$d </string>
+
+
+
+</resources>

@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/21890/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework
+END
+CrashReportHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/CrashReportHandler.java
+END
+ExpandableItemView.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/ExpandableItemView.java
+END
+AlertNeutral.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/AlertNeutral.java
+END
+CrashReportActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/CrashReportActivity.java
+END
+SmartApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartApplication.java
+END
+OnSwipeDelete.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/OnSwipeDelete.java
+END
+SmartTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartTable.java
+END
+SmartOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartOpenHelper.java
+END
+AdvertisementHandller.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/AdvertisementHandller.java
+END
+CustomAlertNeutral.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/CustomAlertNeutral.java
+END
+SmartVersionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartVersionHandler.java
+END
+SmartFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartFragment.java
+END
+TrustManagerManipulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/TrustManagerManipulator.java
+END
+ItemView.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/ItemView.java
+END
+SmartGestureListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartGestureListener.java
+END
+XMLHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/XMLHandler.java
+END
+SmartApplicationConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartApplicationConfiguration.java
+END
+SmartArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartArrayList.java
+END
+SmartExpandableListItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartExpandableListItem.java
+END
+SmartListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartListAdapter.java
+END
+AlertMagnatic.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/AlertMagnatic.java
+END
+SmartDataHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartDataHelper.java
+END
+SmartListItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartListItem.java
+END
+SmartListAdapterWithHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartListAdapterWithHolder.java
+END
+SmartActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/21890/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartActivity.java
+END
+SmartListEfficientAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartListEfficientAdapter.java
+END
+SmartFrameworkSecurity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartFrameworkSecurity.java
+END
+SmartExpandableListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartExpandableListAdapter.java
+END
+CustomAlertMagnatic.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/CustomAlertMagnatic.java
+END
+SmartActivityHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartActivityHandler.java
+END
+SmartFragmentHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/src/com/smart/framework/SmartFragmentHandler.java
+END

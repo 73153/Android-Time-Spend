@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    style="?background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.ijoomer.customviews.IjoomerTextView
+            style="?textview_white_h2"
+            android:id="@+id/txtSelectUser"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="@string/intafy_select_users"
+            android:background="@drawable/ijoomer_spinner"/>
+
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtMessage"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="left|top"
+            android:lines="5"
+            android:hint="@string/intafy_messages"
+            android:layout_marginTop="20dp"/>
+
+        <com.ijoomer.customviews.IjoomerVoiceAndTextMessager
+            android:id="@+id/voiceMessager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgSend"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/search_send_small_icon"/>
+
+        <com.ijoomer.customviews.IjoomerTextView
+            style="?textview_white_h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/intafy_send"/>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    style="?background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spnTypeUserSelection"
+            style="?spinner"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="10dp"/>
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtUserSelected"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="left|top"
+            android:lines="8"
+            android:hint="@string/intafy_event_selection_show_here"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgAdd"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/add_icon_en"/>
+
+</LinearLayout>

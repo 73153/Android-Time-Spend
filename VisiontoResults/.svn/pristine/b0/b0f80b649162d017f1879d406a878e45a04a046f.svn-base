@@ -1,0 +1,122 @@
+package com.ijoomer.tips;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.text.Html;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.PopupWindow;
+
+import com.ijoomer.tips.customviews.CustomBoldTextView;
+import com.ijoomer.tips.utilities.Utility;
+
+
+public class ContactUsActivity extends BaseActivity {
+
+    private View view;
+    private Button btnCallUs;
+    private Button btnEmailUs;
+    private Button btnWebsite;
+    private Button btnCallMeBack;
+    private Button btnFAQ;
+
+    private PopupWindow callUsPopupWindow;
+    private View callUsPopupView;
+    private ListView lstCallUs;
+    private LinearLayout upperLayout;
+    private ArrayAdapter<String> adapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        view = LayoutInflater.from(this).inflate(R.layout.contactus,content);
+        btnCallUs = (Button) view.findViewById(R.id.btnCallUs);
+        btnEmailUs = (Button) view.findViewById(R.id.btnEmailUs);
+        btnWebsite = (Button) view.findViewById(R.id.btnWebsite);
+        btnCallMeBack = (Button) view.findViewById(R.id.btnCallMeBack);
+        btnFAQ = (Button) view.findViewById(R.id.btnFAQ);
+
+        btnCallUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                callUsPopupWindow.showAtLocation(v, Gravity.NO_GRAVITY, 0, 0);
+            }
+        });
+        btnEmailUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent emailIntent = new Intent(Intent.ACTION_VIEW);
+                Uri data = Uri.parse("mailto:?subject=&body=&to="+ Utility.EMAIL);
+                emailIntent.setData(data);
+                startActivity(emailIntent);
+            }
+        });
+        btnWebsite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(Utility.WEBSITE_URL));
+                startActivity(intent);
+            }
+        });
+        btnCallMeBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ContactUsActivity.this,CallMeBackActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnFAQ.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ContactUsActivity.this,FAQActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        CustomBoldTextView txtHeader = (CustomBoldTextView) findViewById(R.id.txtHeader);
+        txtHeader.setText(Html.fromHtml(getString(R.string.contact_us)));
+        callUsPopupView = LayoutInflater.from(this).inflate(R.layout.call_us_popup,null);
+        lstCallUs = (ListView) callUsPopupView.findViewById(R.id.lstCallUs);
+        upperLayout = (LinearLayout) callUsPopupView.findViewById(R.id.upperLayout);
+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, Utility.CALL_US);
+        lstCallUs.setAdapter(adapter);
+        lstCallUs.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel",Utility.CALL_US_VALUE[position], null));
+                startActivity(intent);
+                callUsPopupWindow.dismiss();
+            }
+        });
+
+        upperLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(callUsPopupWindow.isShowing()){
+                    callUsPopupWindow.dismiss();
+                }
+            }
+        });
+
+        callUsPopupWindow = new PopupWindow(callUsPopupView, ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.MATCH_PARENT,false);
+        callUsPopupWindow.setAnimationStyle(R.style.anim_bottom_in_out_style);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(callUsPopupWindow.isShowing()){
+            callUsPopupWindow.dismiss();
+        }else{
+            super.onBackPressed();
+        }
+    }
+}

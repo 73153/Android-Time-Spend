@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="35dp">
+        <fragment
+            android:id="@+id/maps"
+            android:name="pl.mg6.android.maps.extensions.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@drawable/tabbar_bg"
+        android:orientation="horizontal" >
+        <!-- android:button="@drawable/eosos_unit_btn" /> -->
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.eosos.customviews.IjoomerTextView
+                style="?textview_h5"
+                android:id="@+id/txtRoute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:text="@string/route_map" />
+
+            <ImageView
+                android:id="@+id/imgMapType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:visibility="visible"
+                android:layout_toRightOf="@id/txtRoute"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/map_btn_icon_normal" >
+            </ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.eosos.src"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ijoomer_background"
+    android:orientation="vertical" >
+
+    <com.eosos.customviews.IjoomerTextView
+        style="?textview_blue_h3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/avg_rating_title"
+        android:textStyle="bold" />
+
+    <com.eosos.customviews.IjoomerRatingBar
+        android:id="@+id/rtbRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:star_size="80" >
+    </com.eosos.customviews.IjoomerRatingBar>
+
+    <com.eosos.customviews.IjoomerTextView
+        style="?textview_blue_h3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/rating_comments_title"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lstRate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:clipToPadding="false"
+        android:fastScrollEnabled="true" >
+    </ListView>
+
+    <com.eosos.customviews.IjoomerTextView
+        style="?textview_h4"
+        android:id="@+id/txtRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/rate"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

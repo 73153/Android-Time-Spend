@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/popup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/setting_background_popup"
+        android:orientation="vertical">
+        <com.ijoomer.customviews.IjoomerTextView
+            style="?textview_white_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/intafy_select_language"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_english_language"/>
+
+                <ImageView
+                    android:id="@+id/imgEnglishLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgEnglishLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"/>
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/intafy_arabic_language"/>
+
+                <ImageView
+                    android:id="@+id/imgArabicLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgArabicLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_german_language"/>
+
+                <ImageView
+                    android:id="@+id/imgGermanLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgGermanLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_kozuka_language"/>
+
+                <ImageView
+                    android:id="@+id/imgKozukaLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgKozukaLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_french_language"/>
+
+                <ImageView
+                    android:id="@+id/imgFrenchLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgFrenchLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_portugues_language"/>
+
+                <ImageView
+                    android:id="@+id/imgPortuguesLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgPortuguesLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_spanish_language"/>
+
+                <ImageView
+                    android:id="@+id/imgSpanishLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgSpanishLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_nederlands_language"/>
+
+                <ImageView
+                    android:id="@+id/imgNederlandsLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgNederlandsLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_italian_language"/>
+
+                <ImageView
+                    android:id="@+id/imgItalianLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgItalianLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_swedish_language"/>
+
+                <ImageView
+                    android:id="@+id/imgSwadishLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgSwadishLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_russian_language"/>
+
+                <ImageView
+                    android:id="@+id/imgRussianLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgRussianLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_white_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/intafy_norwegian_language"/>
+
+                <ImageView
+                    android:id="@+id/imgNorwegianLanguageOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_selected"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/imgNorwegianLanguageOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/redio_btn_unselected"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+        <ImageView
+            android:id="@+id/imgSave"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/save_btn"/>
+    </LinearLayout>
+</LinearLayout>

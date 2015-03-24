@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="intafy_blue">#5ac8fa</color>
+    <color name="intafy_settings_popup_bg">#171c23</color>
+    <color name="intafy_block_user">#805ac8fa</color>
+</resources>

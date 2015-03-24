@@ -1,0 +1,569 @@
+package com.eosos.components.main;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import android.content.Context;
+import android.location.Location;
+import android.text.Html;
+import android.view.KeyEvent;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.inputmethod.EditorInfo;
+import android.widget.AbsListView;
+import android.widget.AbsListView.OnScrollListener;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.Filter;
+import android.widget.Filterable;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import android.widget.TextView.OnEditorActionListener;
+
+import com.androidquery.AQuery;
+import com.androidquery.callback.BitmapAjaxCallback;
+import com.eosos.common.classes.IjoomerUtilities;
+import com.eosos.common.classes.ViewHolder;
+import com.eosos.custom.interfaces.IjoomerSharedPreferences;
+import com.eosos.customviews.IjoomerAutoCompleteTextView;
+import com.eosos.customviews.IjoomerRatingBar;
+import com.eosos.customviews.IjoomerTextView;
+import com.eosos.library.EososDataProvider;
+import com.eosos.src.R;
+import com.eosos.weservice.WebCallListenerWithCacheInfo;
+import com.smart.framework.CustomAlertNeutral;
+import com.smart.framework.ItemView;
+import com.smart.framework.SmartActivity;
+import com.smart.framework.SmartFragment;
+import com.smart.framework.SmartListAdapterWithHolder;
+import com.smart.framework.SmartListItem;
+
+public class EososNearByEntryListFragment extends SmartFragment implements EososTagHolder, IjoomerSharedPreferences {
+
+	private ListView lstClubs;
+	boolean needToCall = true;
+	private ArrayList<SmartListItem> listData = new ArrayList<SmartListItem>();
+	public ArrayList<HashMap<String, String>> clubsNearBy = new ArrayList<HashMap<String, String>>();
+	private SmartListAdapterWithHolder listAdapterWithHolder;
+	private EososDataProvider dataProvider;
+	private String IN_SECTION_ID = "54";
+	private ArrayList<HashMap<String, String>> autoCompleteResultList;
+	private IjoomerAutoCompleteTextView edtClub;
+	private View listFooter;
+	public boolean DistanceInKms = false;
+	public int nearByRangInMile = 15;
+
+	ArrayList<HashMap<String, String>> data;
+	private String latitude, longitude;
+
+	private AQuery aQuery;
+
+	public EososNearByEntryListFragment(ArrayList<HashMap<String, String>> data) {
+		this.data = data;
+	}
+
+	@Override
+	public int setLayoutId() {
+		return R.layout.eosos_near_by_entry_fragment;
+	}
+
+	@Override
+	public void initComponents(View currentView) {
+		lstClubs = (ListView) currentView.findViewById(R.id.directoryList);
+		lstClubs.setSelector(R.drawable.list_item_selector);
+		aQuery = new AQuery(getActivity());
+		listFooter = LayoutInflater.from(getActivity()).inflate(R.layout.ijoomer_list_footer, null);
+		edtClub = (IjoomerAutoCompleteTextView) currentView.findViewById(R.id.edtClub);
+		lstClubs.addFooterView(listFooter, null, false);
+		dataProvider = new EososDataProvider(getActivity());
+		lstClubs.setFastScrollEnabled(true);
+		((ImageView) ((SmartActivity) getActivity()).getHeaderView().findViewById(R.id.imgDirection)).setVisibility(View.GONE);
+	}
+
+	@Override
+	public void prepareViews(View currentView) {
+		getIntentData();
+		edtClub.setAdapter(new autoCompleteAdapter(getActivity(), R.layout.ijoomer_spinner_dropdown_item));
+		latitude = ((SmartActivity) getActivity()).getLatitude();
+		longitude = ((SmartActivity) getActivity()).getLongitude();
+//		 latitude = "51.5085300";
+//		 longitude = "-0.1257400";
+		lstClubs.setFastScrollEnabled(true);
+		prepareList(data, false, false, 0, 10);
+		listAdapterWithHolder = getListAdapter(listData);
+		lstClubs.setAdapter(listAdapterWithHolder);
+		listFooterInvisible();
+		// getNearByEntries();
+	}
+
+	// public void getNearByEntries() {
+	// final SeekBar proSeekBar =
+	// IjoomerUtilities.getLoadingDialog(getString(R.string.dialog_loading_sending_request));
+	// dataProvider.getClubs("", "", "", false, new
+	// WebCallListenerWithCacheInfo() {
+	//
+	// @Override
+	// public void onProgressUpdate(int progressCount) {
+	// proSeekBar.setProgress(progressCount);
+	// }
+	//
+	// @Override
+	// public void onCallComplete(int responseCode, String errorMessage,
+	// ArrayList<HashMap<String, String>> data1, Object data2, int pageNo, int
+	// pageLimit, boolean fromCache) {
+	// ArrayList<HashMap<String, String>> filteredData = new
+	// ArrayList<HashMap<String, String>>();
+	// if (data1 != null) {
+	// try {
+	// for (HashMap<String, String> hashMap : data1) {
+	// double distance;
+	// distance = getDistance(Double.parseDouble(((SmartActivity)
+	// getActivity()).getLatitude()),
+	// Double.parseDouble(((SmartActivity) getActivity()).getLongitude()),
+	// Double.parseDouble(hashMap.get("latitude")),
+	// Double.parseDouble(hashMap.get("longitude")));
+	// if (distance < nearByRangInMile) {
+	// filteredData.add(hashMap);
+	// }
+	// }
+	// Collections.sort(filteredData, new Comparator<HashMap<String, String>>()
+	// {
+	//
+	// @Override
+	// public int compare(HashMap<String, String> lhs, HashMap<String, String>
+	// rhs) {
+	//
+	// double distance;
+	// distance = getDistance(Double.parseDouble(((SmartActivity)
+	// getActivity()).getLatitude()),
+	// Double.parseDouble(((SmartActivity) getActivity()).getLongitude()),
+	// Double.parseDouble(lhs.get("latitude")),
+	// Double.parseDouble(lhs.get("longitude")));
+	//
+	// double distance1;
+	// distance1 = getDistance(Double.parseDouble(((SmartActivity)
+	// getActivity()).getLatitude()),
+	// Double.parseDouble(((SmartActivity) getActivity()).getLongitude()),
+	// Double.parseDouble(rhs.get("latitude")),
+	// Double.parseDouble(rhs.get("longitude")));
+	//
+	// return distance < distance1 ? -1 : 1;
+	// }
+	// });
+	//
+	// } catch (Exception e) {
+	// }
+	// if (filteredData.size() > 0) {
+	// data = filteredData;
+	// lstClubs.setFastScrollEnabled(true);
+	// prepareList(data, false, fromCache, pageNo, pageLimit);
+	// listAdapterWithHolder = getListAdapter(listData);
+	// lstClubs.setAdapter(listAdapterWithHolder);
+	// }
+	//
+	// }
+	// dataProvider.getNearBy(IN_SECTION_ID, latitude, longitude,
+	// nearByRangInMile + "", new WebCallListenerWithCacheInfo() {
+	//
+	// @Override
+	// public void onProgressUpdate(int progressCount) {
+	// proSeekBar.setProgress(progressCount);
+	// }
+	//
+	// @Override
+	// public void onCallComplete(int responseCode, String errorMessage,
+	// ArrayList<HashMap<String, String>> data1, Object data2, int pageNo, int
+	// pageLimit,
+	// boolean fromCache) {
+	// try {
+	// if (data1 != null) {
+	// data = data1;
+	// lstClubs.setFastScrollEnabled(true);
+	// prepareList(data, false, fromCache, pageNo, pageLimit);
+	// listAdapterWithHolder = getListAdapter(listData);
+	// lstClubs.setAdapter(listAdapterWithHolder);
+	// } else {
+	// if (data == null || data.size() == 0) {
+	// lstClubs.setVisibility(View.GONE);
+	// try {
+	// IjoomerUtilities.getCustomOkDialog(getString(R.string.locations),
+	// getString(getResources().getIdentifier("code" + responseCode, "string",
+	// getActivity().getPackageName())), getString(R.string.ok),
+	// R.layout.ijoomer_ok_dialog, new CustomAlertNeutral() {
+	//
+	// @Override
+	// public void NeutralMethod() {
+	//
+	// }
+	// });
+	// } catch (Exception e) {
+	// e.printStackTrace();
+	// }
+	// }
+	// }
+	// } catch (Exception e) {
+	// e.printStackTrace();
+	// }
+	// }
+	// });
+	// }
+	// });
+	//
+	// }
+
+	private class autoCompleteAdapter extends ArrayAdapter<String> implements Filterable {
+
+		public autoCompleteAdapter(Context context, int textViewResourceId) {
+			super(context, textViewResourceId);
+		}
+
+		@Override
+		public int getCount() {
+			return autoCompleteResultList.size();
+		}
+
+		@Override
+		public String getItem(int position) {
+			return autoCompleteResultList.get(position).get("title");
+		}
+
+		@Override
+		public Filter getFilter() {
+			Filter filter = new Filter() {
+				@Override
+				protected FilterResults performFiltering(final CharSequence constraint) {
+					final FilterResults filterResults = new FilterResults();
+					autoCompleteResultList = new ArrayList<HashMap<String, String>>();
+					if (constraint != null && constraint.toString().trim().length() > 1) {
+
+						for (int i = 0; i < data.size(); i++) {
+							if (data.get(i).get("title").toLowerCase().contains(constraint.toString().toLowerCase())) {
+								autoCompleteResultList.add(data.get(i));
+							}
+
+						}
+						filterResults.values = autoCompleteResultList;
+						filterResults.count = autoCompleteResultList.size();
+
+					}
+					return filterResults;
+				}
+
+				@Override
+				protected void publishResults(CharSequence constraint, FilterResults results) {
+					if (results != null && results.count > 0) {
+						notifyDataSetChanged();
+					} else {
+						notifyDataSetInvalidated();
+					}
+				}
+			};
+			return filter;
+		}
+	}
+
+	/**
+	 * This method used to visible list footer
+	 */
+	public void listFooterVisible() {
+		listFooter.setVisibility(View.VISIBLE);
+	}
+
+	/**
+	 * This method used to gone list footer
+	 */
+	public void listFooterInvisible() {
+		listFooter.setVisibility(View.GONE);
+	}
+
+	@Override
+	public void setActionListeners(View currentView) {
+		edtClub.setOnEditorActionListener(new OnEditorActionListener() {
+
+			@Override
+			public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+				if (actionId == EditorInfo.IME_ACTION_SEARCH && (autoCompleteResultList == null || autoCompleteResultList.size() == 0)) {
+					edtClub.setError("No match found");
+					return true;
+				}
+				return false;
+			}
+		});
+		edtClub.setOnItemClickListener(new OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> parent, View arg1, int pos, long arg3) {
+
+				// try {
+				// ArrayList<HashMap<String, String>> selected = new
+				// ArrayList<HashMap<String, String>>();
+				// selected.add((HashMap<String, String>)
+				// autoCompleteResultList.get(pos));
+				// if (alphaIndexer != null)
+				// alphaIndexer.clear();
+				// prepareList(selected, false, true, 0, 10);
+				// listAdapterWithHolder = getListAdapter(listData);
+				// listDirectory.setAdapter(listAdapterWithHolder);
+				// } catch (Exception e) {
+				// e.printStackTrace();
+				// }
+				try {
+					if (autoCompleteResultList != null && (HashMap<String, String>) autoCompleteResultList.get(pos) != null) {
+						((SmartActivity) getActivity()).loadNew(EososEntryDetailActivityNew.class, getActivity(), false, "IN_ID",
+								((HashMap<String, String>) autoCompleteResultList.get(pos)).get("id"));
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+			}
+		});
+		lstClubs.setOnItemClickListener(new OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+				try {
+					((SmartActivity) getActivity()).loadNew(EososEntryDetailActivityNew.class, getActivity(), false, "IN_ID", data.get(arg2).get("id"));
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+
+		lstClubs.setOnScrollListener(new OnScrollListener() {
+
+			@Override
+			public void onScrollStateChanged(AbsListView view, int scrollState) {
+			}
+
+			@Override
+			public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+
+				if ((firstVisibleItem + visibleItemCount) >= totalItemCount && totalItemCount > 0 && needToCall) {
+
+					if (!dataProvider.isCalling() && dataProvider.hasNextPage()) {
+						listFooterInvisible();
+
+						dataProvider.getNearBy(IN_SECTION_ID, latitude, longitude, nearByRangInMile + "", new WebCallListenerWithCacheInfo() {
+
+							@Override
+							public void onProgressUpdate(int progressCount) {
+							}
+
+							@Override
+							public void onCallComplete(int responseCode, String errorMessage, ArrayList<HashMap<String, String>> data1, Object data2, int pageNo, int pageLimit,
+									boolean fromCache) {
+								listFooterInvisible();
+								if (responseCode == 200) {
+									if (data1 != null && data1.size() > 0 && (data == null || data.size() <= 0)) {
+										prepareList(data1, true, fromCache, pageNo, pageLimit);
+									} else {
+										prepareList(data1, false, fromCache, pageNo, pageLimit);
+									}
+								} else {
+									needToCall = false;
+									if (data == null || data.size() <= 0) {
+										try {
+											IjoomerUtilities.getCustomOkDialog(getString(R.string.locations),
+													getString(getResources().getIdentifier("code" + responseCode, "string", getActivity().getPackageName())),
+													getString(R.string.ok), R.layout.ijoomer_ok_dialog, new CustomAlertNeutral() {
+
+														@Override
+														public void NeutralMethod() {
+														}
+													});
+										} catch (Exception e) {
+											e.printStackTrace();
+										}
+									}
+								}
+							}
+						});
+
+					}
+				}
+
+			}
+		});
+	}
+
+	public ArrayList<HashMap<String, String>> getClubs() {
+		return clubsNearBy;
+	}
+
+	public void getIntentData() {
+		if (((SmartActivity) getActivity()).getSmartApplication().readSharedPreferences().getString(SP_DEFAULT_LANDING_SCREEN, "").length() > 0) {
+			try {
+				JSONObject intentData = new JSONObject(((SmartActivity) getActivity()).getSmartApplication().readSharedPreferences().getString(SP_LAST_ACTIVITY_INTENT, ""))
+						.getJSONObject("itemdata");
+				IN_SECTION_ID = intentData.getString("sectionID");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public void prepareList(ArrayList<HashMap<String, String>> data, boolean append, boolean fromCache, int pageno, int pagelimit) {
+		if (data != null) {
+			if (!append) {
+				listData.clear();
+				clubsNearBy.clear();
+			} else {
+				if (!fromCache) {
+					int startIndex = ((pageno - 1) * pagelimit);
+					int endIndex = listAdapterWithHolder.getCount();
+					if (startIndex > 0) {
+						for (int i = endIndex; i >= startIndex; i--) {
+							try {
+								listAdapterWithHolder.remove(listAdapterWithHolder.getItem(i));
+								listData.remove(i);
+								clubsNearBy.remove(i);
+							} catch (Exception e) {
+							}
+						}
+					}
+				}
+			}
+			for (int i = 0; i < data.size(); i++) {
+				HashMap<String, String> hashMap = data.get(i);
+				JSONArray jsonArray = null;
+				try {
+					jsonArray = new JSONArray(hashMap.get("field"));
+					for (int j = 0; j < jsonArray.length(); j++) {
+						if (jsonArray.getJSONObject(j).get("labelid").toString().equalsIgnoreCase("field_image1")) {
+							hashMap.put("image1", jsonArray.getJSONObject(j).get("value").toString());
+						}
+						if (jsonArray.getJSONObject(j).get("labelid").toString().equalsIgnoreCase("field_city")) {
+							hashMap.put("city", jsonArray.getJSONObject(j).get("value").toString());
+						}
+					}
+				} catch (Exception e) {
+
+				}
+				SmartListItem item = new SmartListItem();
+				item.setItemLayout(R.layout.eosos_search_list_item);
+				ArrayList<Object> obj = new ArrayList<Object>();
+				obj.add(hashMap);
+
+				item.setValues(obj);
+				clubsNearBy.add(hashMap);
+				if (append) {
+					listAdapterWithHolder.add(item);
+				} else {
+					listData.add(item);
+
+				}
+			}
+		}
+	}
+
+	public SmartListAdapterWithHolder getListAdapter(final ArrayList<SmartListItem> listData) {
+
+		SmartListAdapterWithHolder adapterWithHolder = new SmartListAdapterWithHolder(getActivity(), R.layout.eosos_search_list_item, listData, new ItemView() {
+
+			@Override
+			public View setItemView(int position, View v, SmartListItem item, final ViewHolder holder) {
+
+				holder.eososTxtTitle = (IjoomerTextView) v.findViewById(R.id.eososTxtTitle);
+				holder.eososTxtLocation = (IjoomerTextView) v.findViewById(R.id.eososTxtLocation);
+				holder.eososTxtDistance = (IjoomerTextView) v.findViewById(R.id.eososTxtDistance);
+				holder.eososImgClub = (ImageView) v.findViewById(R.id.eososImgClub);
+				holder.eososTxtCity = (IjoomerTextView) v.findViewById(R.id.eososTxtCity);
+				holder.rtbRating = (IjoomerRatingBar) v.findViewById(R.id.rtbRating);
+				holder.eososProgress = (ProgressBar) v.findViewById(R.id.progress);
+				holder.divider = (View) v.findViewById(R.id.divider);
+				holder.divider.setVisibility(View.VISIBLE);
+				holder.eososTxtCity.setVisibility(View.GONE);
+
+				@SuppressWarnings("unchecked")
+				HashMap<String, String> value = (HashMap<String, String>) item.getValues().get(0);
+
+				holder.eososTxtLocation.setText(Html.fromHtml(value.get("city")).toString().trim());
+				holder.eososTxtTitle.setText(value.get("title").trim());
+
+				double distance;
+				String distanceData = null;
+				try {
+					distance = getDistance(Double.parseDouble(latitude), Double.parseDouble(longitude), Double.parseDouble(value.get("latitude")),
+							Double.parseDouble(value.get("longitude")));
+
+					distanceData = String.format("%.1f", distance);
+					if (DistanceInKms)
+						holder.eososTxtDistance.setText(distanceData + " kms");
+					else
+						holder.eososTxtDistance.setText(distanceData + " miles");
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+				try {
+					holder.rtbRating.setStarRating(Float.parseFloat(value.get(AVERAGERATING)) / 2);
+					holder.rtbRating.setVisibility(View.VISIBLE);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				try {
+					if (aQuery.getCachedImage(value.get("image1")) == null) {
+						holder.eososProgress.setVisibility(View.VISIBLE);
+						aQuery.id(holder.eososImgClub).image(value.get("image1"), true, true, 0, 0, new BitmapAjaxCallback() {
+
+							protected void callback(String url, ImageView iv, android.graphics.Bitmap bm, com.androidquery.callback.AjaxStatus status) {
+								iv.setImageBitmap(bm);
+								holder.eososProgress.setVisibility(View.GONE);
+							}
+
+							;
+
+						});
+					} else {
+						holder.eososProgress.setVisibility(View.GONE);
+						holder.eososImgClub.setImageBitmap(aQuery.getCachedImage(value.get("image1")));
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				return v;
+			}
+
+			@Override
+			public View setItemView(int position, View v, SmartListItem item) {
+				return null;
+			}
+		});
+		return adapterWithHolder;
+	}
+
+	@Override
+	public View setLayoutView() {
+		return null;
+	}
+
+	public void changeDistanceUnit(boolean InKms) {
+		if (listData.size() > 0) {
+			DistanceInKms = InKms;
+			listAdapterWithHolder.notifyDataSetChanged();
+		}
+
+	}
+
+	private double getDistance(double fromLat, double fromLng, double toLat, double toLng) {
+		try {
+			float[] dist = new float[1];
+			Location.distanceBetween(fromLat, fromLng, toLat, toLng, dist);
+			if (DistanceInKms)
+				return (dist[0] * 0.001);
+			else
+				return (dist[0] * 0.00062137119); // / 100000;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return 0;
+		}
+	}
+
+}

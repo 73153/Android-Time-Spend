@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical" >
+
+    <ScrollView
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_gravity="center_vertical"
+       android:layout_weight="1"
+       android:scrollbars="none" >
+
+        <LinearLayout
+           android:id="@+id/lnr_form"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:gravity="center"
+       android:orientation="horizontal"
+       android:padding="10dp" >
+
+        <com.ijoomer.customviews.IjoomerButton
+           android:id="@+id/btnSearch"
+            style="?button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/search" />
+    </LinearLayout>
+
+</LinearLayout>

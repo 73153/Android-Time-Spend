@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/pull_to_refresh_header"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@@android:color/transparent"
+   android:gravity="center"
+   android:paddingBottom="15dp"
+   android:paddingTop="10dp" >
+
+    <ImageView
+       android:id="@+id/imgPullToRefresh"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="20dp"
+       android:gravity="center"
+       android:src="@drawable/ijoomer_pull_to_refresh_arrow"
+       android:visibility="gone" />
+
+    <TextView
+       android:id="@+id/txtPullToRefresh"
+        style="?textview_green_h3"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:paddingTop="5dp"
+       android:text="@string/pull_to_refresh_pull_label" />
+
+    <TextView
+       android:id="@+id/pull_to_refresh_updated_at"
+        style="?textview_green_h3"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/pull_to_refresh_text"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:text="@string/pull_to_refresh_release_label"
+       android:visibility="gone" />
+
+</RelativeLayout>

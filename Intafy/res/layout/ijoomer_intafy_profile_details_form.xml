@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtFirstName"
+                    style="?textview_white_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <com.ijoomer.customviews.IjoomerEditText
+                    android:id="@+id/edtFirstName"
+                    style="?edittext_h4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:scrollHorizontally="true"
+                    android:scrollbars="none"
+                    android:singleLine="true"
+                    android:inputType="none"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtLastName"
+                    style="?textview_white_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <com.ijoomer.customviews.IjoomerEditText
+                    android:id="@+id/edtLastName"
+                    style="?edittext_h4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:scrollHorizontally="true"
+                    android:scrollbars="none"
+                    android:singleLine="true"
+                    android:inputType="none"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtStatus"
+                    style="?textview_white_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <com.ijoomer.customviews.IjoomerEditText
+                    android:id="@+id/edtStatus"
+                    style="?edittext_h4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:scrollHorizontally="true"
+                    android:scrollbars="none"
+                    android:singleLine="true"
+                    android:inputType="none"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtEmail"
+                    style="?textview_white_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <com.ijoomer.customviews.IjoomerEditText
+                    android:id="@+id/edtEmail"
+                    style="?edittext_h4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:scrollHorizontally="true"
+                    android:scrollbars="none"
+                    android:singleLine="true"
+                    android:focusableInTouchMode="false"
+                    android:inputType="textEmailAddress"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnr_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <com.ijoomer.customviews.IjoomerButton
+            android:id="@+id/btnBack"
+            style="?button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/intafy_cancel" />
+
+        <com.ijoomer.customviews.IjoomerButton
+            android:id="@+id/btnSubmit"
+            style="?button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/intafy_save" />
+    </LinearLayout>
+
+</LinearLayout>

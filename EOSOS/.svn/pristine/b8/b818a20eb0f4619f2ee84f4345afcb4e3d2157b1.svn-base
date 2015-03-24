@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="187dp">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="187dp" />
+            <com.eosos.page.indicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:padding="5dp" >
+            </com.eosos.page.indicator.CirclePageIndicator>
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <com.eosos.customviews.IjoomerTextView
+                        android:id="@+id/txtTitle"
+                        style="?textview_blue_h5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold" />
+
+                    <com.eosos.customviews.IjoomerTextView
+                        android:id="@+id/txtCity"
+                        style="?textview_blue_h4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgFav"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/favourties" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrAddredd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <com.eosos.customviews.IjoomerTextView
+                    android:id="@+id/txtAddress"
+                    style="?textview_blue_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Get Directions"
+                    android:textColor="@color/txt_header"
+                    android:textStyle="bold" />
+
+                <SeekBar
+                    android:id="@+id/seekAddress"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/seekbar_bg"
+                    android:progress="0"
+                    android:progressDrawable="@android:color/transparent"
+                    android:thumb="@drawable/seekbar_btn"
+                    android:thumbOffset="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <com.eosos.customviews.IjoomerTextView
+                    android:id="@+id/txtPhone"
+                    style="?textview_blue_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Call the Venue"
+                    android:textColor="@color/txt_header"
+                    android:textStyle="bold" />
+
+                <SeekBar
+                    android:id="@+id/seekPhone"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/seekbar_bg"
+                    android:progress="0"
+                    android:progressDrawable="@android:color/transparent"
+                    android:thumb="@drawable/seekbar_btn"
+                    android:thumbOffset="0dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <com.eosos.customviews.IjoomerTextView
+                    android:id="@+id/txtEmail"
+                    style="?textview_blue_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Send an Email"
+                    android:textColor="@color/txt_header"
+                    android:textStyle="bold" />
+
+                <SeekBar
+                    android:id="@+id/seekEmail"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/seekbar_bg"
+                    android:progress="0"
+                    android:progressDrawable="@android:color/transparent"
+                    android:thumb="@drawable/seekbar_btn"
+                    android:thumbOffset="0dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnrWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <com.eosos.customviews.IjoomerTextView
+                    android:id="@+id/txtWeb"
+                    style="?textview_blue_h3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Visit Website"
+                    android:textColor="@color/txt_header"
+                    android:textStyle="bold" />
+
+                <SeekBar
+                    android:id="@+id/seekWeb"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/seekbar_bg"
+                    android:progress="0"
+                    android:progressDrawable="@android:color/transparent"
+                    android:thumb="@drawable/seekbar_btn"
+                    android:thumbOffset="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

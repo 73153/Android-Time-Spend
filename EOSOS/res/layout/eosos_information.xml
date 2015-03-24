@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <com.eosos.customviews.IjoomerTextView
+            style="?textview_blue_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:text="@string/rate_app"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/seekbar"
+            android:progress="0"
+            android:progressDrawable="@android:color/transparent"
+            android:thumb="@drawable/rate_app"
+            android:thumbOffset="0dp"/>
+
+        <com.eosos.customviews.IjoomerTextView
+            style="?textview_blue_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/faq"
+            
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekFaq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seekbar"
+            android:progress="0"
+            android:progressDrawable="@android:color/transparent"
+            android:thumb="@drawable/ask_questions"
+            android:thumbOffset="0dp" />
+
+        <com.eosos.customviews.IjoomerTextView
+            style="?textview_blue_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/feedback"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seekbar"
+            android:progress="0"
+            android:progressDrawable="@android:color/transparent"
+            android:thumb="@drawable/feedback"
+            android:thumbOffset="0dp" />
+
+        <com.eosos.customviews.IjoomerTextView
+            style="?textview_blue_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/terms"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekTerms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seekbar"
+            android:progress="0"
+            android:progressDrawable="@android:color/transparent"
+            android:thumb="@drawable/terms_and_conditions"
+            android:thumbOffset="0dp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,137 @@
+package com.ijoomer.tips;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.text.Html;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.ProgressBar;
+
+import com.ijoomer.tips.customviews.CustomBoldTextView;
+import com.ijoomer.tips.customviews.CustomTextView;
+import com.ijoomer.tips.utilities.Utility;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+
+public class FAQActivity extends BaseActivity {
+
+    private View view;
+    private ListView lstFaq;
+    private ImageView imgSlideMenu;
+    private ProgressBar pbrLoading;
+    private ArrayList<HashMap<String,String>> faqList;
+    private FaqAdapter adapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        view = LayoutInflater.from(this).inflate(R.layout.faq,content);
+        lstFaq = (ListView) view.findViewById(R.id.lstFaq);
+        pbrLoading = (ProgressBar) view.findViewById(R.id.pbrLoading);
+
+
+        CustomBoldTextView txtHeader = (CustomBoldTextView) findViewById(R.id.txtHeader);
+        txtHeader.setText(Html.fromHtml(getString(R.string.faqs)));
+
+        pbrLoading.setVisibility(View.VISIBLE);
+        faqList = new ArrayList<HashMap<String, String>>();
+
+        HashMap<String,String> row1 = new HashMap<String,String>();
+        row1.put(Utility.FAQQUESTION,"FAQ Question 1");
+        row1.put(Utility.FAQANSWER,"FAQ Answer 1");
+
+        HashMap<String,String> row2 = new HashMap<String,String>();
+        row2.put(Utility.FAQQUESTION,"FAQ Question 2");
+        row2.put(Utility.FAQANSWER,"FAQ Answer 2");
+
+        HashMap<String,String> row3 = new HashMap<String,String>();
+        row3.put(Utility.FAQQUESTION,"FAQ Question 3");
+        row3.put(Utility.FAQANSWER,"FAQ Answer 3");
+
+        HashMap<String,String> row4 = new HashMap<String,String>();
+        row4.put(Utility.FAQQUESTION,"FAQ Question 4");
+        row4.put(Utility.FAQANSWER,"FAQ Answer 4");
+
+        HashMap<String,String> row5 = new HashMap<String,String>();
+        row5.put(Utility.FAQQUESTION,"FAQ Question 5");
+        row5.put(Utility.FAQANSWER,"FAQ Answer 5");
+
+        HashMap<String,String> row6 = new HashMap<String,String>();
+        row6.put(Utility.FAQQUESTION,"FAQ Question 6");
+        row6.put(Utility.FAQANSWER,"FAQ Answer 6");
+
+        HashMap<String,String> row7 = new HashMap<String,String>();
+        row7.put(Utility.FAQQUESTION,"FAQ Question 7");
+        row7.put(Utility.FAQANSWER,"FAQ Answer 7");
+
+        faqList.add(row1);
+        faqList.add(row2);
+        faqList.add(row3);
+        faqList.add(row4);
+        faqList.add(row5);
+        faqList.add(row6);
+        faqList.add(row7);
+
+        adapter = new FaqAdapter(this,faqList);
+        lstFaq.setAdapter(adapter);
+        pbrLoading.setVisibility(View.GONE);
+    }
+
+    class FaqAdapter extends BaseAdapter {
+
+        private Context context;
+        private ArrayList<HashMap<String,String>> faqList;
+        public FaqAdapter(Context context,ArrayList<HashMap<String,String>> faqList){
+            this.context=context;
+            this.faqList =faqList;
+        }
+
+        @Override
+        public int getCount() {
+            return faqList.size();
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return faqList.get(position);
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            ViewHolder holder;
+            if(convertView == null){
+                holder = new ViewHolder();
+                convertView = LayoutInflater.from(context).inflate(R.layout.faq_list_item,null);
+                holder.txtFaqQuestionLabel = (CustomBoldTextView) convertView.findViewById(R.id.txtFaqQuestionLabel);
+                holder.txtFaqQuestionValue = (CustomTextView) convertView.findViewById(R.id.txtFaqQuestionValue);
+
+                convertView.setTag(holder);
+            }else{
+                holder = (ViewHolder) convertView.getTag();
+            }
+
+
+            holder.txtFaqQuestionLabel.setText(faqList.get(position).get(Utility.FAQANSWER));
+            holder.txtFaqQuestionValue.setText(faqList.get(position).get(Utility.FAQANSWER));
+
+            return convertView;
+        }
+
+        class ViewHolder{
+            CustomBoldTextView txtFaqQuestionLabel;
+            CustomTextView txtFaqQuestionValue;
+        }
+    }
+}

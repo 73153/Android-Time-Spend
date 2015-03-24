@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    style="?background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtFirstName"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:scrollHorizontally="true"
+            android:scrollbars="none"
+            android:singleLine="true"
+            android:hint="@string/intafy_first_name"/>
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtLastName"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:hint="@string/intafy_last_name"
+            android:scrollHorizontally="true"
+            android:scrollbars="none"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"/>
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtEmail"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:scrollHorizontally="true"
+            android:scrollbars="none"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:hint="@string/intafy_email"
+            android:layout_marginTop="20dp"/>
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtAuthorisationCode"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:scrollHorizontally="true"
+            android:scrollbars="none"
+            android:singleLine="true"
+            android:inputType="textPassword|textNoSuggestions"
+            android:hint="@string/intafy_authorisation_code"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgAddNetwork"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/add_icon_en"/>
+
+</LinearLayout>

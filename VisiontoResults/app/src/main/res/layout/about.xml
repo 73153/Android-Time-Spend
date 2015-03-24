@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shadow_background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/about_teletech_banner"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/large_margin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <com.ijoomer.tips.customviews.CustomTextView
+                android:id="@+id/txtAboutContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_content"
+                android:lineSpacingExtra="5dp"
+                android:textSize="@dimen/large_text_size"
+                android:scrollbars="none"
+                android:textColor="@color/grey"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnVisitWebSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/visit_website"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:textSize="@dimen/medium_text_size"
+            android:background="@drawable/pink_button_selector"/>
+    </LinearLayout>
+</LinearLayout>

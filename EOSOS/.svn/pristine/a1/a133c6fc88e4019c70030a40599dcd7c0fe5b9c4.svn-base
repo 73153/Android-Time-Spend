@@ -1,0 +1,366 @@
+package com.eosos.components.main;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import android.text.Html;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnTouchListener;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.ProgressBar;
+import android.widget.SeekBar;
+import android.widget.ViewFlipper;
+
+import com.androidquery.AQuery;
+import com.eosos.common.classes.IjoomerUtilities;
+import com.eosos.common.classes.ViewHolder;
+import com.eosos.customviews.IjoomerRatingBar;
+import com.eosos.customviews.IjoomerTextView;
+import com.eosos.library.EososDataProvider;
+import com.eosos.src.R;
+import com.eosos.weservice.WebCallListenerWithCacheInfo;
+import com.smart.framework.CustomAlertNeutral;
+import com.smart.framework.ItemView;
+import com.smart.framework.SmartListAdapterWithHolder;
+import com.smart.framework.SmartListItem;
+
+public class EososEntryListActivityNew extends EososMasterActivity implements OnTouchListener {
+	private AQuery aQuery;
+	private ViewFlipper viewFlipper;
+	private String IN_PARENT_ID = "55", IN_SECTION_ID = "54";
+	private String IN_FEATUREDFIRST = "No";
+	private EososDataProvider dataProvider;
+	private ArrayList<SmartListItem> listData = new ArrayList<SmartListItem>();
+	private HashMap<String, Integer> index = new HashMap<String, Integer>();
+	private ListView lstEntryList;
+
+	private IjoomerTextView txtA;
+	private IjoomerTextView txtB;
+	private IjoomerTextView txtC;
+	private IjoomerTextView txtD;
+	private IjoomerTextView txtE;
+	private IjoomerTextView txtF;
+	private IjoomerTextView txtG;
+	private IjoomerTextView txtH;
+	private IjoomerTextView txtI;
+	private IjoomerTextView txtJ;
+	private IjoomerTextView txtK;
+	private IjoomerTextView txtL;
+	private IjoomerTextView txtM;
+	private IjoomerTextView txtN;
+	private IjoomerTextView txtO;
+	private IjoomerTextView txtP;
+	private IjoomerTextView txtQ;
+	private IjoomerTextView txtR;
+	private IjoomerTextView txtS;
+	private IjoomerTextView txtT;
+	private IjoomerTextView txtU;
+	private IjoomerTextView txtV;
+	private IjoomerTextView txtW;
+	private IjoomerTextView txtX;
+	private IjoomerTextView txtY;
+	private IjoomerTextView txtZ;
+
+	@Override
+	public int setLayoutId() {
+		return R.layout.eosos_entry_new;
+	}
+
+	@Override
+	public void initComponents() {
+		aQuery = new AQuery(this);
+		dataProvider = new EososDataProvider(this);
+		lstEntryList = (ListView) findViewById(R.id.lstEntryList);
+		lstEntryList.setAdapter(null);
+
+		txtA = (IjoomerTextView) findViewById(R.id.txtA);
+		txtB = (IjoomerTextView) findViewById(R.id.txtB);
+		txtC = (IjoomerTextView) findViewById(R.id.txtC);
+		txtD = (IjoomerTextView) findViewById(R.id.txtD);
+		txtE = (IjoomerTextView) findViewById(R.id.txtE);
+		txtF = (IjoomerTextView) findViewById(R.id.txtF);
+		txtG = (IjoomerTextView) findViewById(R.id.txtG);
+		txtH = (IjoomerTextView) findViewById(R.id.txtH);
+		txtI = (IjoomerTextView) findViewById(R.id.txtI);
+		txtJ = (IjoomerTextView) findViewById(R.id.txtJ);
+		txtK = (IjoomerTextView) findViewById(R.id.txtK);
+		txtL = (IjoomerTextView) findViewById(R.id.txtL);
+		txtM = (IjoomerTextView) findViewById(R.id.txtM);
+		txtN = (IjoomerTextView) findViewById(R.id.txtN);
+		txtO = (IjoomerTextView) findViewById(R.id.txtO);
+		txtP = (IjoomerTextView) findViewById(R.id.txtP);
+		txtQ = (IjoomerTextView) findViewById(R.id.txtQ);
+		txtR = (IjoomerTextView) findViewById(R.id.txtR);
+		txtS = (IjoomerTextView) findViewById(R.id.txtS);
+		txtT = (IjoomerTextView) findViewById(R.id.txtT);
+		txtU = (IjoomerTextView) findViewById(R.id.txtU);
+		txtV = (IjoomerTextView) findViewById(R.id.txtV);
+		txtW = (IjoomerTextView) findViewById(R.id.txtW);
+		txtX = (IjoomerTextView) findViewById(R.id.txtX);
+		txtY = (IjoomerTextView) findViewById(R.id.txtY);
+		txtZ = (IjoomerTextView) findViewById(R.id.txtZ);
+
+	}
+
+	@Override
+	public void prepareViews() {
+
+		txtA.setOnTouchListener(this);
+		txtB.setOnTouchListener(this);
+		txtC.setOnTouchListener(this);
+		txtD.setOnTouchListener(this);
+		txtE.setOnTouchListener(this);
+		txtF.setOnTouchListener(this);
+		txtG.setOnTouchListener(this);
+		txtH.setOnTouchListener(this);
+		txtI.setOnTouchListener(this);
+		txtJ.setOnTouchListener(this);
+		txtK.setOnTouchListener(this);
+		txtK.setOnTouchListener(this);
+		txtM.setOnTouchListener(this);
+		txtN.setOnTouchListener(this);
+		txtO.setOnTouchListener(this);
+		txtP.setOnTouchListener(this);
+		txtQ.setOnTouchListener(this);
+		txtR.setOnTouchListener(this);
+		txtS.setOnTouchListener(this);
+		txtT.setOnTouchListener(this);
+		txtU.setOnTouchListener(this);
+		txtV.setOnTouchListener(this);
+		txtW.setOnTouchListener(this);
+		txtX.setOnTouchListener(this);
+		txtY.setOnTouchListener(this);
+		txtZ.setOnTouchListener(this);
+		getDirectoryList();
+	}
+
+	@Override
+	public void setActionListeners() {
+
+	}
+
+	public void getDirectoryList() {
+		final SeekBar proSeekBar = IjoomerUtilities.getLoadingDialog(getString(R.string.dialog_loading_sending_request));
+		dataProvider.getClubs(IN_SECTION_ID, IN_PARENT_ID, IN_FEATUREDFIRST, false, new WebCallListenerWithCacheInfo() {
+
+			@Override
+			public void onProgressUpdate(int progressCount) {
+				proSeekBar.setProgress(progressCount);
+			}
+
+			@Override
+			public void onCallComplete(int responseCode, String errorMessage, ArrayList<HashMap<String, String>> data1, Object data2, int pageNo, int pageLimit, boolean fromCache) {
+				if (data1 != null) {
+					prepareList(data1);
+					lstEntryList.setAdapter(getListAdapter());
+
+				} else {
+					try {
+						IjoomerUtilities.getCustomOkDialog(getString(R.string.directory),
+								getString(getResources().getIdentifier("code" + responseCode, "string", getPackageName())), getString(R.string.ok), R.layout.ijoomer_ok_dialog,
+								new CustomAlertNeutral() {
+
+									@Override
+									public void NeutralMethod() {
+
+									}
+								});
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+				}
+			}
+		});
+
+	}
+
+	public void getIntentData() {
+		if (getSmartApplication().readSharedPreferences().getString(SP_DEFAULT_LANDING_SCREEN, "").length() > 0) {
+			try {
+				JSONObject intentData = new JSONObject(getSmartApplication().readSharedPreferences().getString(SP_LAST_ACTIVITY_INTENT, "")).getJSONObject("itemdata");
+				IN_PARENT_ID = intentData.getString("categoryID");
+				IN_SECTION_ID = intentData.getString("sectionID");
+				IN_FEATUREDFIRST = intentData.getString("featuredFirst");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	private void prepareList(ArrayList<HashMap<String, String>> data) {
+
+		for (HashMap<String, String> row : data) {
+
+			if (index.containsKey(row.get("city"))) {
+				SmartListItem item = new SmartListItem();
+				item.setItemLayout(R.layout.eosos_directory_list_item);
+				ArrayList<Object> obj = new ArrayList<Object>();
+				try {
+					JSONArray jsonArray = new JSONArray(row.get("field"));
+					for (int j = 0; j < jsonArray.length(); j++) {
+						if (jsonArray.getJSONObject(j).get("labelid").toString().equalsIgnoreCase("field_image1")) {
+							row.put("image1", jsonArray.getJSONObject(j).get("value").toString());
+
+						} else if (jsonArray.getJSONObject(j).get("labelid").toString().equalsIgnoreCase("field_city")) {
+							row.put("city", jsonArray.getJSONObject(j).get("value").toString());
+						}
+					}
+				} catch (Exception e) {
+
+				}
+				obj.add(row);
+				item.setValues(obj);
+				listData.add(item);
+			} else {
+				index.put(row.get("city"), listData.size() != 0 ? listData.size() - 1 : 0);
+				HashMap<String, String> header = new HashMap<String, String>();
+				header.put("sectionheader", row.get("city"));
+				SmartListItem item = new SmartListItem();
+				item.setItemLayout(R.layout.eosos_directory_list_item);
+				ArrayList<Object> obj = new ArrayList<Object>();
+				obj.add(header);
+				item.setValues(obj);
+				listData.add(item);
+
+				SmartListItem item2 = new SmartListItem();
+				item2.setItemLayout(R.layout.eosos_directory_list_item);
+				ArrayList<Object> obj2 = new ArrayList<Object>();
+				try {
+					JSONArray jsonArray = new JSONArray(row.get("field"));
+					for (int j = 0; j < jsonArray.length(); j++) {
+						if (jsonArray.getJSONObject(j).get("labelid").toString().equalsIgnoreCase("field_image1")) {
+							row.put("image1", jsonArray.getJSONObject(j).get("value").toString());
+
+						} else if (jsonArray.getJSONObject(j).get("labelid").toString().equalsIgnoreCase("field_city")) {
+							row.put("city", jsonArray.getJSONObject(j).get("value").toString());
+						}
+					}
+				} catch (Exception e) {
+
+				}
+				obj2.add(row);
+				item2.setValues(obj2);
+				listData.add(item2);
+
+			}
+
+		}
+	}
+
+	private void prepareSectionSelection() {
+
+//		for (Iterator iterator = index.entrySet().iterator(); iterator.hasNext();) {
+//			String type = (String) iterator.next();
+//
+//			switch (type.charAt(0)) {
+//			case value:
+//				
+//				break;
+//
+//			default:
+//				break;
+//			}
+//		}
+	}
+
+	public SmartListAdapterWithHolder getListAdapter() {
+
+		SmartListAdapterWithHolder adapterWithHolder = new SmartListAdapterWithHolder(this, R.layout.eosos_directory_list_item, listData, new ItemView() {
+
+			@Override
+			public View setItemView(int position, View v, SmartListItem item, final ViewHolder holder) {
+
+				holder.eososLnrDirectory = (LinearLayout) v.findViewById(R.id.eososLnrDirectory);
+				holder.eososTxtTitle = (IjoomerTextView) v.findViewById(R.id.eososTxtTitle);
+				holder.eososTxtLocation = (IjoomerTextView) v.findViewById(R.id.eososTxtLocation);
+				holder.eososTxtDistance = (IjoomerTextView) v.findViewById(R.id.eososTxtDistance);
+				holder.eososImgClub = (ImageView) v.findViewById(R.id.eososImgClub);
+				holder.eososTxtCity = (IjoomerTextView) v.findViewById(R.id.eososTxtCity);
+				holder.rtbRating = (IjoomerRatingBar) v.findViewById(R.id.rtbRating);
+				holder.eososProgress = (ProgressBar) v.findViewById(R.id.progress);
+				holder.divider = (View) v.findViewById(R.id.divider);
+				holder.divider.setVisibility(View.VISIBLE);
+				holder.rtbRating.setVisibility(View.GONE);
+				holder.eososTxtDistance.setVisibility(View.GONE);
+				holder.eososTxtCity.setVisibility(View.GONE);
+
+				HashMap<String, String> value = (HashMap<String, String>) item.getValues().get(0);
+
+				if (value.containsKey("sectionheader")) {
+					holder.eososTxtCity.setText(value.get("sectionheader"));
+					holder.eososTxtCity.setVisibility(View.VISIBLE);
+					holder.eososLnrDirectory.setVisibility(View.GONE);
+				} else {
+					holder.eososTxtCity.setVisibility(View.GONE);
+					holder.eososLnrDirectory.setVisibility(View.VISIBLE);
+					holder.eososTxtLocation.setText(Html.fromHtml(value.get("city")).toString().trim());
+					holder.eososTxtTitle.setText(value.get("title").trim());
+
+					try {
+						holder.rtbRating.setStarRating(Float.parseFloat(value.get(AVERAGERATING)) / 2);
+						holder.rtbRating.setVisibility(View.VISIBLE);
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+					holder.eososProgress.setVisibility(View.GONE);
+					holder.eososImgClub.setImageBitmap(aQuery.getCachedImage(value.get("image1")));
+
+					if ((position + 1) == listData.size()) {
+						holder.divider.setVisibility(View.VISIBLE);
+					} else {
+						if (((HashMap<String, String>) listData.get(position + 1).getValues().get(0)).containsKey("sectionheader")) {
+							holder.divider.setVisibility(View.GONE);
+						}
+					}
+
+					// aQuery.id(holder.eososImgClub).image(value.get("image1"),
+					// true, true, 200, 200);
+
+					// try {
+					// if (aQuery.getCachedImage(value.get("image1")) == null) {
+					// holder.eososProgress.setVisibility(View.VISIBLE);
+					// aQuery.id(holder.eososImgClub).image(value.get("image1"),
+					// true, true, 0, 0, new BitmapAjaxCallback() {
+					//
+					// protected void callback(String url, ImageView iv,
+					// android.graphics.Bitmap bm,
+					// com.androidquery.callback.AjaxStatus status) {
+					// iv.setImageBitmap(bm);
+					// holder.eososProgress.setVisibility(View.GONE);
+					// }
+					//
+					// ;
+					//
+					// });
+					// } else {
+					// holder.eososProgress.setVisibility(View.GONE);
+					// holder.eososImgClub.setImageBitmap(aQuery.getCachedImage(value.get("image1")));
+					// }
+					// } catch (Exception e) {
+					// e.printStackTrace();
+					// }
+				}
+
+				return v;
+			}
+
+			@Override
+			public View setItemView(int position, View v, SmartListItem item) {
+				return null;
+			}
+		});
+		return adapterWithHolder;
+	}
+
+	@Override
+	public boolean onTouch(View v, MotionEvent event) {
+		return false;
+	}
+}

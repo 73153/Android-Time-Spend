@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?background"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lnrLockApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.ijoomer.customviews.IjoomerTextView
+                style="?textview_white_h3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/intafy_lock_app"/>
+
+            <ImageView
+                android:id="@+id/imgLockAppOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/redio_btn_selected"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/imgLockAppOff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/redio_btn_unselected"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrShowLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.ijoomer.customviews.IjoomerTextView
+                style="?textview_white_h3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/intafy_show_location"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/imgLocationOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/redio_btn_selected"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/imgLocationOff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/redio_btn_unselected"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrSelectLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.ijoomer.customviews.IjoomerTextView
+                style="?textview_white_h3"
+                android:id="@+id/txtSettingsLanguage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/intafy_english_language"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/redio_btn_selected"/>
+
+        </LinearLayout>
+
+        <com.ijoomer.customviews.IjoomerButton
+            style="?button"
+            android:id="@+id/btnSettingsTerms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intafy_terms_and_conditions"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"/>
+        <com.ijoomer.customviews.IjoomerButton
+            style="?button"
+            android:id="@+id/btnSettingsFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intafy_feed_back"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+        <com.ijoomer.customviews.IjoomerButton
+            style="?button"
+            android:id="@+id/btnSettingsRateApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intafy_rate_app"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</LinearLayout>

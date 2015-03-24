@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/map_bubble"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <com.eosos.customviews.IjoomerTextView
+        style="?textview_white_h3"
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Haresh"
+        android:layout_marginTop="5dp"/>
+    <ImageView
+        android:id="@+id/imgInfo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/map_bubble_info"/>
+
+</LinearLayout>

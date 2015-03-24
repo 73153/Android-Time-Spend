@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ijoomer.intafy.src"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    style="?background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.ijoomer.customviews.RoundedImageView
+            android:id="@+id/imgArticleImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            app:is_oval="false"
+            android:layout_gravity="center"
+            app:corner_radius="360dp"
+            app:border_color="@color/blue"/>
+        <ProgressBar
+            android:id="@+id/pbrImageLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <com.ijoomer.customviews.IjoomerTextView
+        android:id="@+id/txtArticleTitle"
+        style="?textview_blue_h5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <com.ijoomer.customviews.IjoomerTextView
+        android:id="@+id/txtArticleDate"
+        style="?textview_white_h3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtArticleContent"
+            style="?textview_white_h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgEdit"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:visibility="gone"
+            android:src="@drawable/edit_icon_en"/>
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:src="@drawable/delete_icon_en"/>
+
+        </LinearLayout>
+
+</LinearLayout>

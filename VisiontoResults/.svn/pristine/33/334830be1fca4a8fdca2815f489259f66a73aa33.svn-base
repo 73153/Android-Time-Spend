@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shadow_background">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/large_margin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.ijoomer.tips.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/suggest_tip_content"
+                android:textSize="@dimen/large_text_size"
+               android:scrollbars="none"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="@dimen/medium_margin"
+                android:textColor="@color/grey"/>
+
+
+            <com.ijoomer.tips.customviews.CustomEditTex
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:textSize="@dimen/medium_text_size"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:singleLine="true"
+                android:background="@drawable/edittext"
+                android:textColor="@color/grey"/>
+
+            <com.ijoomer.tips.customviews.CustomEditTex
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:textSize="@dimen/medium_text_size"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:singleLine="true"
+                android:background="@drawable/edittext"
+                android:textColor="@color/grey"/>
+
+            <com.ijoomer.tips.customviews.CustomEditTex
+                android:id="@+id/edtTip"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="@string/tip"
+                android:gravity="top|left"
+                android:textSize="@dimen/medium_text_size"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:background="@drawable/edittext"
+                android:textColor="@color/grey"/>
+
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/submit"
+                android:textSize="@dimen/medium_text_size"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:background="@drawable/pink_button_selector"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/pbrLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+    android:id="@+id/lnrMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <com.ijoomer.customviews.IjoomerTextView
+        android:id="@+id/txtAddressTitle"
+        style="?textview_blue_h4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="3dp"
+        android:text="@string/pick_up_address"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp" >
+
+        <com.ijoomer.customviews.IjoomerRadioButton
+            android:id="@+id/rdbAirportAddress"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/address_btn_radio_selector"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/airport"
+            android:textColor="@drawable/address_btn_radio_selector_color" />
+
+        <com.ijoomer.customviews.IjoomerRadioButton
+            android:id="@+id/rdbPostcode"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_weight="1"
+            android:background="@drawable/address_btn_radio_selector"
+            android:button="@null"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/post_code"
+            android:textColor="@drawable/address_btn_radio_selector_color" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lnrPostCodeAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/txt_color_dark"
+            android:padding="3dp"
+            android:visibility="gone" >
+
+            <com.ijoomer.customviews.IjoomerEditText
+                android:id="@+id/edtPostCodeAddress"
+                style="?textview_white_h2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/txt_color_light"
+                android:gravity="top|left"
+                android:lines="5" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgPostCodeMap"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/address_location_icon" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:visibility="visible" />
+
+                <com.ijoomer.customviews.IjoomerEditText
+                    android:id="@+id/edtPostCodeAddressPostCode"
+                    style="?textview_white_h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="@color/txt_color_light" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrAirportAddress"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/txt_color_dark"
+            android:padding="3dp"
+            android:visibility="visible" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioGroup
+                        android:id="@+id/rdgAirportAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <com.ijoomer.customviews.IjoomerRadioButton
+                            android:id="@+id/rdbLcy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/address_airport_radio_selector"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/lcy"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <com.ijoomer.customviews.IjoomerRadioButton
+                            android:id="@+id/rdbLgwn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/address_airport_radio_selector"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/lgwn"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <com.ijoomer.customviews.IjoomerRadioButton
+                            android:id="@+id/rdbLgws"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/address_airport_radio_selector"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/lgws"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <com.ijoomer.customviews.IjoomerRadioButton
+                            android:id="@+id/rdbLhrtOne"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/address_airport_radio_selector"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/lhrt_one"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <com.ijoomer.customviews.IjoomerRadioButton
+                            android:id="@+id/rdbLhrtThree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/address_airport_radio_selector"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/lhrt_three"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <com.ijoomer.customviews.IjoomerRadioButton
+                            android:id="@+id/rdbLhrtFour"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/address_airport_radio_selector"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/lhrt_four"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <com.ijoomer.customviews.IjoomerRadioButton
+                            android:id="@+id/rdbLhrtFive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/address_airport_radio_selector"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/lhrt_five"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <com.ijoomer.customviews.IjoomerRadioButton
+                            android:id="@+id/rdbLtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/address_airport_radio_selector"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/ltn"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <com.ijoomer.customviews.IjoomerRadioButton
+                            android:id="@+id/rdbStn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/address_airport_radio_selector"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/stn"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    <com.ijoomer.customviews.IjoomerButton
+        android:id="@+id/btnNext"
+        style="?next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="@string/next" />
+
+</LinearLayout>

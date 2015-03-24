@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    style="?background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/lstEntryList"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:cacheColorHint="@null"
+            android:scrollbars="none"
+            android:smoothScrollbar="true"
+            android:divider="@null" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/lnrIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtA"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="A" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtB"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="B" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtC"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="C" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtD"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="D" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtE"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="E" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtF"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="F" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtG"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="G" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtH"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="H" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtI"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="I" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtJ"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="J" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtK"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="K" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtL"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="L" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtM"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="M" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtN"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="N" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtO"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="O" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtP"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="P" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtQ"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="Q" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtR"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="R" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtS"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="S" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtT"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="T" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtU"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="U" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtV"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="V" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtW"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="W" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtX"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="X" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtY"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="Y" />
+
+            <com.eosos.customviews.IjoomerTextView
+                android:id="@+id/txtZ"
+                style="?textview_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:text="Z" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

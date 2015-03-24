@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_margin="@dimen/large_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.ijoomer.tips.customviews.CustomBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:gravity="center"
+                android:text="@string/vtrebook_content_second"
+                android:textSize="@dimen/medium_text_size"
+                android:textColor="@color/grey"/>
+
+            <com.ijoomer.tips.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/vtrebook_content_third"
+                android:textSize="@dimen/medium_text_size"
+                android:textColor="@color/grey"/>
+
+            <com.ijoomer.tips.customviews.CustomBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/vtrebook_content_four"
+                android:textSize="@dimen/medium_text_size"
+                android:textColor="@color/grey"/>
+
+
+            <com.ijoomer.tips.customviews.CustomEditTex
+                android:id="@+id/edtEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext"
+                android:hint="@string/email_address"
+                android:textSize="@dimen/medium_text_size"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:textColor="@color/grey"/>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/submit"
+                android:textSize="@dimen/medium_text_size"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:background="@drawable/pink_button_selector"/>
+
+            <Button
+                android:id="@+id/btnContactUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/pink"
+                android:text="@string/contact_us_button"
+                android:textSize="@dimen/medium_text_size"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:background="@drawable/pink_border_button_selector"/>
+
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/pbrLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+</FrameLayout>

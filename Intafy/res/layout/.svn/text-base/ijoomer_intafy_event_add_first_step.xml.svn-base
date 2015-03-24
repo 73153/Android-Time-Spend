@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ijoomer.intafy.src"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    style="?background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.ijoomer.customviews.RoundedImageView
+            android:id="@+id/imgEventAvatar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:corner_radius="360dp"
+            android:layout_centerInParent="true"
+            app:is_oval="false"
+            app:border_color="@color/blue"
+            android:scaleType="fitXY"/>
+
+
+        <ProgressBar
+            android:id="@+id/pbrImageLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/imgAddImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/plus_icon_en"
+            android:layout_marginLeft="-10dp"
+            android:layout_below="@id/imgEventAvatar"
+            android:layout_toRightOf="@id/imgEventAvatar"/>
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        android:layout_weight="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtEventTitle"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:maxLength="50"
+            android:scrollHorizontally="true"
+            android:scrollbars="none"
+            android:singleLine="true"
+            android:hint="@string/intafy_enter_name"/>
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtEventLocation"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:maxLength="50"
+            android:scrollHorizontally="true"
+            android:scrollbars="none"
+            android:singleLine="true"
+            android:hint="@string/intafy_enter_location"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+            <com.ijoomer.customviews.IjoomerEditText
+                android:id="@+id/edtEventDate"
+                style="?edittext_h3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="@string/intafy_date"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:padding="5dp"/>
+            <com.ijoomer.customviews.IjoomerEditText
+                android:id="@+id/edtEventStartTime"
+                style="?edittext_h3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/intafy_start"
+                android:layout_marginLeft="5dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:padding="5dp"/>
+            <com.ijoomer.customviews.IjoomerEditText
+                android:id="@+id/edtEventEndTime"
+                style="?edittext_h3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/intafy_finish"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"/>
+        </LinearLayout>
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtEventDescription"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/intafy_description"
+            android:layout_marginTop="5dp"
+            android:gravity="left|top"
+            android:lines="3"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"/>
+    </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imgNext"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/next_btn"/>
+
+</LinearLayout>

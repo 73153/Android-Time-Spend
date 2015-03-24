@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/yellow"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <com.ijoomer.customviews.IjoomerTextView
+                        android:id="@+id/txtBookTitle"
+                        style="?textview_h4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="@string/book_your_joureny"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/lnrPickUp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/book_home_box"
+                        android:orientation="horizontal" >
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            android:id="@+id/txtPickUp"
+                            style="?textview_light_h4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="@string/pick_up" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/book_home_right_arrow" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnrDropOff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/book_home_box"
+                        android:orientation="horizontal" >
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            android:id="@+id/txtDropOff"
+                            style="?textview_light_h4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="@string/drop_off" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/book_home_right_arrow" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnrSelectVehicle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/book_home_box"
+                        android:orientation="horizontal" >
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            android:id="@+id/txtSelectVehicle"
+                            style="?textview_light_h4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:text="@string/select_vehical" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/book_home_right_arrow" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnrNoOfBabySeats"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/book_home_box" >
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            android:id="@+id/txtNoOfBabySeats"
+                            style="?textview_light_h4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="@string/no_of_baby_seats" />
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            android:id="@+id/txtNoOfBabySeatsValue"
+                            style="?textview_light_h4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="(0)" />
+
+                        <Spinner
+                            android:id="@+id/spnNoOfBabySeats"
+                            style="?spinner"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:entries="@array/no_of_baby_seats_array"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/book_home_right_arrow" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnrNoOfPassenger"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/book_home_box" >
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            android:id="@+id/txtNoOfPassenger"
+                            style="?textview_light_h4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="@string/no_of_passenger" />
+
+                        <com.ijoomer.customviews.IjoomerTextView
+                            android:id="@+id/txtNoOfPassengerValue"
+                            style="?textview_light_h4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="(0)" />
+
+                        <Spinner
+                            android:id="@+id/spnNoOfPassenger"
+                            style="?spinner"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:entries="@array/no_of_passenger_array"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/book_home_right_arrow" />
+                    </LinearLayout>
+
+                    <com.ijoomer.customviews.IjoomerButton
+                        android:id="@+id/btnGetQuote"
+                        style="?button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/get_quote" />
+                </LinearLayout>
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    style="?textview_blue_h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/enter_your_detail_for_a_instance_quote" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pbrGetQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces
+END
+CustomClickListner.class
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces/CustomClickListner.class
+END
+CustomSliderListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces/CustomSliderListener.class
+END
+SelectImageDialogListner.class
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces/SelectImageDialogListner.class
+END
+ReportListner.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces/ReportListner.class
+END
+IjoomerSharedPreferences.class
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces/IjoomerSharedPreferences.class
+END
+PhotoTagListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces/PhotoTagListener.class
+END
+IjoomerKeys.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces/IjoomerKeys.class
+END
+IjoomerClickListner.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces/IjoomerClickListner.class
+END
+ShareListner.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces/ShareListner.class
+END
+AnnouncementAndDiscussionListner.class
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/!svn/ver/20892/Client/Android/IJoomerAdvance/TraceTheSteps/bin/classes/com/ijoomer/custom/interfaces/AnnouncementAndDiscussionListner.class
+END

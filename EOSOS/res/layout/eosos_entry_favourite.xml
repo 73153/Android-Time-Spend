@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    style="?background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/lnrChildTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/lnrFavouritesFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="35dp" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/tabbar_bg"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <RadioGroup
+                            android:id="@+id/rdgFavouritesListMap"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="horizontal" >
+
+                            <com.eosos.customviews.IjoomerTextView
+                                android:id="@+id/txtFavouritesList"
+                                style="?textview_h4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lst"
+                                android:textSize="22sp" />
+
+                            <com.eosos.customviews.IjoomerTextView
+                                android:id="@+id/txtFavouritesMap"
+                                style="?textview_h4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="@string/btnmap"
+                                android:textSize="22sp" />
+                        </RadioGroup>
+
+                        <ImageView
+                            android:id="@+id/imgFavouritesMapType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/rdgFavouritesListMap"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/map_btn_icon_normal"
+                            android:visibility="invisible" />
+
+                        <ImageView
+                            android:id="@+id/imgFavouritesUnit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/rdgFavouritesListMap"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/unit_btn_icon_normal"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrChildOne"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/lnrDirectoriesFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="35dp" >
+                </LinearLayout>
+
+                <!-- <View -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="1dp" -->
+                <!-- android:layout_marginLeft="20dp" -->
+                <!-- android:layout_marginRight="20dp" -->
+                <!-- android:background="@drawable/bottom_line" /> -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/tabbar_bg"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <!-- android:button="@drawable/eosos_unit_btn" /> -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <RadioGroup
+                            android:id="@+id/rdgDirectoriesListMap"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="horizontal" >
+
+                            <com.eosos.customviews.IjoomerTextView
+                                android:id="@+id/txtDirectoriesList"
+                                style="?textview_h4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lst"
+                                android:textSize="22sp" />
+
+                            <com.eosos.customviews.IjoomerTextView
+                                android:id="@+id/txtDirectoriesMap"
+                                style="?textview_h4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="@string/btnmap"
+                                android:textSize="22sp" />
+                        </RadioGroup>
+
+                        <ImageView
+                            android:id="@+id/imgDirectoriesMapType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/rdgDirectoriesListMap"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/map_btn_icon_normal"
+                            android:visibility="invisible" />
+
+                        <ImageView
+                            android:id="@+id/imgDirectoriesUnit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/rdgDirectoriesListMap"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/unit_btn_icon_normal"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ViewFlipper>
+
+</LinearLayout>

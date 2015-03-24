@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ijoomer.intafy.src"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    style="?background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.ijoomer.customviews.RoundedImageView
+            android:id="@+id/imgArticleImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:is_oval="false"
+            app:corner_radius="360dp"
+            app:border_color="@color/blue"/>
+        <ProgressBar
+            android:id="@+id/pbrImageLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/imgAddImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/plus_icon_en"
+            android:layout_below="@id/imgArticleImage"
+            android:layout_toRightOf="@id/imgArticleImage"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtTitle"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:maxLength="50"
+            android:scrollHorizontally="true"
+            android:scrollbars="none"
+            android:singleLine="true"
+            android:hint="@string/intafy_title"/>
+        <com.ijoomer.customviews.IjoomerEditText
+            android:id="@+id/edtContent"
+            style="?edittext_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="left|top"
+            android:lines="5"
+            android:hint="@string/intafy_articel_content"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgPublish"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/publish_icon_en"/>
+</LinearLayout>

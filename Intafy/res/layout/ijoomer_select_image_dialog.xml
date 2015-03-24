@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/popup_square"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="vertical" >
+
+            <com.ijoomer.customviews.IjoomerTextView
+                style="?textview_blue_h5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_title_select_image"
+                android:textStyle="bold" />
+
+            <com.ijoomer.customviews.IjoomerTextView
+                android:id="@+id/txtCapture"
+                style="?textview_white_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/capture_photo"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/capture" />
+
+            <com.ijoomer.customviews.IjoomerTextView
+                android:id="@+id/txtPhoneGallery"
+                style="?textview_white_h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/gallery_photo"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/gallery" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

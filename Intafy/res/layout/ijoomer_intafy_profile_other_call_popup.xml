@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/profile_upload_photo_popup"
+        android:orientation="vertical">
+
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtCallMobile"
+            style="?textview_white_h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:visibility="gone"
+            android:text="@string/intafy_call_mobile"/>
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtCallPhone"
+            style="?textview_white_h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:text="@string/intafy_call_phone"/>
+        <com.ijoomer.customviews.IjoomerTextView
+            android:id="@+id/txtCancel"
+            style="?textview_white_h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/intafy_cancel"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="rate">Rate</string>
+    <string name="review">Review</string>
+    <string name="lst">List</string>
+    <string name="route_map">Route</string>
+    <string name="user_name">By:%s</string>
+    <string name="btnmap">Map</string>
+    <string name="description">Description</string>
+    <string name="eosos_entercity">Enter City</string>
+    <string name="eosos_plan">Plan</string>
+    <string name="eosos_route">Route</string>
+    <string name="days_open">Days Open</string>
+    <string name="select_night">Select Night</string>
+    <string name="select_subject">Subject</string>
+    <string name="select_method">Select Method</string>
+    <string name="from_location">From Location</string>
+    <string name="to_club">To Club</string>
+    <string name="hint_enter_club">Search Club</string>
+    <string name="route">Route</string>
+    <string name="planner">Planner</string>
+    <string name="directory">Directory</string>
+    <string name="favourites">Favourites</string>
+    <string name="nearby">NearBy</string>
+    <string name="feedback">Feedback</string>
+    <string name="steps_of">Step of %1$d</string>
+    <string name="locations">Locations</string>
+    <string name="location">Location</string>
+    <string name="distance">Distance:\u0020</string>
+    <string name="eta">ETA:\u0020</string>
+    <string name="validate_rate_message">Please rate this club</string>
+
+    <string-array name="nights">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="methods">
+        <item>Car</item>
+        <item>Walking</item>
+        <item>Public Transport</item>
+    </string-array>
+    <string-array name="feedbacks">
+        <item>Add Club</item>
+        <item>Remove Club</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="travelmodes">
+        <item>driving</item>
+        <item>walking</item>
+        <item>transit</item>
+    </string-array>
+
+    <string name="eosos_map_normal">Normal</string>
+    <string name="eosos_map_hybrid">Hybrid</string>
+    <string name="eosos_map_satellite">Satellite</string>
+    <string name="eosos_select_rating">Select Rating:</string>
+    <string name="eosos_name">Name:</string>
+    <string name="eosos_comment">Comment:</string>
+    <string name="eosos_entry_details">Entry Details</string>
+
+    <!-- App static detail Strings -->
+
+    <string name="rate_app">Rate Eosos Elite</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="terms">Terms and conditions</string>
+    <string name="terms_header">EOSOS Elite app  End User License Agreement</string>
+
+    <!-- Rate Listing -->
+    <string name="avg_rating_title">Average Rating:</string>
+    <string name="rating_comments_title">Ratings and comments:</string>
+    <string name="rating_text">Thanks for rating a club on Elite Clubs.</string>
+    <string name="facebook_text">Would you like to share with Facebook?</string>
+    <string name="app_text">Thanks for using the Elite Clubs App.</string>
+    <string name="app_rating_text">Would you like to rate this App in Google Play?</string>
+    <string name="eosos_elite_clubs_header">Elite Clubs</string>
+    <string name="eosos_terms_n_conditions_header">T &amp; C\'s</string>
+    <string name="eosos_f_a_q_header">FAQs</string>
+    <string name="eosos_added_as_favourite">Added as a favourite</string>
+    <string name="eosos_removed_from_favourite">Removed from favourite</string>
+
+</resources>

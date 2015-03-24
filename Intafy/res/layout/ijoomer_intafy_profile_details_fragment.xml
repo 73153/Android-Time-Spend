@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/lnrField1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:gravity="center">
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtField1Label"
+                    style="?textview_blue_h4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtField1Value"
+                    style="?textview_white_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnrField2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_marginTop="5dp">
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtField2Label"
+                    style="?textview_blue_h4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtField2Value"
+                    style="?textview_white_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnrField3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_marginTop="5dp">
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtField3Label"
+                    style="?textview_blue_h4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <com.ijoomer.customviews.IjoomerTextView
+                    android:id="@+id/txtField3Value"
+                    style="?textview_white_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"/>
+            </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>

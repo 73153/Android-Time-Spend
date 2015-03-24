@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?background"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical" >
+
+    <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:gravity="center"
+       android:padding="5dp" >
+
+        <com.ijoomer.customviews.IjoomerTextView
+           android:id="@+id/txtResultFound"
+            style="?textview_orange_h3"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1" />
+
+        <com.ijoomer.customviews.IjoomerButton
+           android:id="@+id/btnShare"
+           android:layout_width="40dp"
+           android:layout_height="30dp"
+           android:layout_marginLeft="3dp"
+           android:background="@drawable/iproperty_share_selector"
+           android:visibility="gone" />
+
+        <com.ijoomer.customviews.IjoomerButton
+           android:id="@+id/btnFavourite"
+           android:layout_width="40dp"
+           android:layout_height="30dp"
+           android:layout_marginLeft="3dp"
+           android:background="@drawable/iproperty_favourite_selector"
+           android:visibility="gone" />
+
+        <com.ijoomer.customviews.IjoomerButton
+           android:id="@+id/btnMap"
+           android:layout_width="40dp"
+           android:layout_height="30dp"
+           android:layout_marginLeft="3dp"
+           android:background="@drawable/iproperty_map_selector"
+           android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+       android:layout_width="fill_parent"
+       android:layout_height="1dp"
+       android:layout_marginTop="2dp"
+       android:background="@color/orange" />
+
+    <ListView
+       android:id="@+id/lstFavourite"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:cacheColorHint="#00000000"
+       android:divider="@color/orange"
+       android:dividerHeight="1dp"
+       android:smoothScrollbar="true" />
+
+</LinearLayout>

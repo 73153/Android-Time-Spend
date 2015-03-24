@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/transperent"
+    android:padding="@dimen/extra_large_margin">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginRight="@dimen/medium_margin"
+        android:layout_marginLeft="@dimen/medium_margin"
+        android:padding="@dimen/medium_margin"
+        android:gravity="center">
+
+        <com.ijoomer.tips.customviews.CustomBoldTextView
+            android:id="@+id/txtSuccessPopupTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/success"
+            android:textColor="@color/grey"
+            android:layout_marginBottom="@dimen/medium_margin"
+            android:textStyle="bold"
+            android:textSize="@dimen/large_text_size"/>
+
+        <com.ijoomer.tips.customviews.CustomTextView
+            android:id="@+id/txtSuccessPopupMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:layout_marginBottom="@dimen/medium_margin"
+            android:textSize="@dimen/medium_text_size"/>
+
+        <com.ijoomer.tips.customviews.CustomTextView
+            android:id="@+id/txtSuccessPopupClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:textColor="@color/pink"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:textSize="@dimen/medium_text_size"/>
+
+    </LinearLayout>
+</LinearLayout>
